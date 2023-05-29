@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- METADATOS-->
+    <meta charset="utf-8" >
+    <meta name="author" content="Facundo Tobio">
+    <meta name="description" content="Portafolio de desarrollo web de Facundo Tobio">
+    <meta name="keywords" content="HTML,CSS,JavaScript,React,Bootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--TITULO-->
+    <title>Facundo Tobio | Full Stack Developer</title>
+
+    <!--FAVICON-->
+    <link rel="icon" href="imagenes/icono.png" type="image/x-icon">
+
+    <!-- BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    
+    <!--ICONOS DE BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!--CSS -->
+    <link href="style.css" rel="stylesheet">
+
+    <!--GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md bg- navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/logo.png" width="60" alt="Logo">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href=#sobreMi>Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonios">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- SECCION PRINCIPAL-->
+<section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img src="imagenes/fotodePerfil.svg" alt="Foto personal" class="imagen">
+        <h1>Hola, soy Facundo Tobio</h1>
+        <h2 class="hdos">Desarrollo sitios web y escribo articulos sobre programación.</h2>
+    </div>
+</section>
+
+<!--SOBRE MI -->
+<section id="sobreMi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+        <h2 class="seccion-titulo">Te contaré sobre mí..</h2>
+        <p class="seccion-texto">Soy técnico dental graduado de la UNLP, con experiencia en el área de testing de software y aspirante a desarrollador web. 
+            Actualmente, estoy embarcado en un camino de aprendizaje continuo como Full Stack Developer en Henry, mientras me desempeño como teaching assistants en un grupo de 20 alumnos aproximadamente.
+            Me apasiona viajar, deseo en un futuro poder hacerlo con más frecuencia, en mis tiempos libres me gusta entrenar y los planes al aire libre! </p>
+    </div>
+</section>
+
+<!--EXPERIENCIA -->
+<section class="experiencia seccion-clara">
+<div class="container text-center">
+    <div class="row">
+<!--desarrollo web-->
+<div class="columna col-12 col-md-4">
+    <i class="bi bi-laptop"></i>
+    <p class="experiencia-titulo">Desarrollo Web</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed porro fuga quidem adipisci id architecto ex atque nam voluptas dolorem a velit, est quo inventore nobis voluptatibus numquam voluptates nemo!</p>
+<div class="badges-contenedor">
+    <span class="badge text-bg-primary">HTML</span>
+    <span class="badge text-bg-primary">CSS</span>
+    <span class="badge text-bg-primary">JavaScript</span>
+    <span class="badge text-bg-primary">React</span>
+</div>
+</div>
+<!--articulos-->
+<div class="columna col-12 col-md-4">
+    <i class="bi bi-pen"></i>
+    <p class="experiencia-titulo">Articulos</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed porro fuga quidem adipisci id architecto ex atque nam voluptas dolorem a velit, est quo inventore nobis voluptatibus numquam voluptates nemo!</p>
+<div class="badges-contenedor">
+    <span class="badge text-bg-primary">Programación</span>
+    <span class="badge text-bg-primary">Personales</span>
+</div>
+</div>
+<!--estudios-->
+<div class="columna col-12 col-md-4">
+    <i class="bi bi-journal-code"></i>
+    <p class="experiencia-titulo">Estudios</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed porro fuga quidem adipisci id architecto ex atque nam voluptas dolorem a velit, est quo inventore nobis voluptatibus numquam voluptates nemo!</p>
+<div class="badges-contenedor">
+    <span class="badge text-bg-primary">Dev Full Stack</span>
+    <span class="badge text-bg-primary">Quality Assurance</span>
+    <span class="badge text-bg-primary">Teaching Assistant</span>
+    </div>
+</div>
+</section>
+
+<!--PROYECTOS -->
+<section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+<h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+<h3 class="seccion-descripcion">Estos son algunos que he creado recientemente...</h3>
+<!-- galeria de proyectos-->
+<div class="conteiner text-center proyectos-contenedor">
+    <div class="row">
+        <!-- proyecto 1-->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+            <img src="imagenes/foods.png" alt="foods">
+        <div class="overlay">
+            <p>Recipe's proyect</p>
+            <div class="iconos-contenedor">
+                <a href="https://github.com/Facundotobio/food" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://github.com/Facundotobio/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+            </a>
+            </div>
+        </div>    
+        </div>
+        </div>
+           <!-- proyecto 2-->
+           <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+            <img src="imagenes/foods.png" alt="foods">
+        <div class="overlay">
+            <p>Lilab's proyect</p>
+            <div class="iconos-contenedor">
+                <a href="https://github.com/Facundotobio/food" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://github.com/Facundotobio" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+            </a>
+            </div>
+        </div>    
+        </div>
+        </div>
+           <!-- proyecto 3-->
+           <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+            <img src="imagenes/foods.png" alt="foods">
+        <div class="overlay">
+            <p>Salta Work's proyect</p>
+            <div class="iconos-contenedor">
+                <a href="https://github.com/Facundotobio/food" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://github.com/Facundotobio" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+            </a>
+            </div>
+        </div>    
+        </div>
+        </div>
+    </div>
+</div>
+<a href="https://github.com/Facundotobio" target="_blank" rel="noopener noreferrer">
+<button type="button" class="btn btn-info">Ver más proyectos <i class="bi bi-arrow-right-circle-fill"></i></button>
+</a>
+</section>
+
+<!--ARTICULOS -->
+<section class="articulos justify-content-start">
+<h2 class="seccion-titulo texto-negro">Artículos</h2>
+<div class="card">
+    <div class="card-header">
+      Más recientes
+    </div>
+    <ul class="list-group list-group-flush">
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7064600010947969024/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Aniversario de Lucre</li>
+        </a>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7063954752178462720/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Un dia como Teaching Assistant</li>
+        </a>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7050575973716508672/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">SPA Loguin</li>
+        </a>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7043070327987265537/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Rick & Morty</li>
+        </a>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7049858954209673216/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">En compañía de Gretta</li>
+        </a>
+    </ul>
+  </div>
+  <a href="https://www.linkedin.com/in/facundo-tobio/recent-activity/all/" target="_blank" rel="noopener noreferrer">
+    <button type="button" class="btn btn-info">Ver más artículos <i class="bi bi-arrow-right-circle-fill"></i></button>
+    </a>
+</section>
+
+<!--TESTIMONIOS -->
+<section id="testimonios" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo">Testimonios</h2>
+    <h3 class="seccion-descripcion">Estos son algunos de los testimonios de mis clientes y colegas...</h3>
+    <!--carrusel -->
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="imagenes/foto1.png" alt="1">
+                <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laborum hic repellat laudantium reiciendis! Aut odio fugit quos nihil doloribus culpa, minima, rerum dicta ullam ipsa labore. Iusto, vero dicta?</p> 
+                <div class="testimonio-info">
+                    <p class="cliente">María Alejandra</p>
+                    <p class="cargo">Dueña de blanquería "María Ale"</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="imagenes/foto2.png" alt="2">
+                <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laborum hic repellat laudantium reiciendis! Aut odio fugit quos nihil doloribus culpa, minima, rerum dicta ullam ipsa labore. Iusto, vero dicta?</p> 
+                <div class="testimonio-info">
+                    <p class="cliente">Ivan Schmith</p>
+                    <p class="cargo">Dueña de blanquería "María Ale"</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="imagenes/foto3.png" alt="3">
+                <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laborum hic repellat laudantium reiciendis! Aut odio fugit quos nihil doloribus culpa, minima, rerum dicta ullam ipsa labore. Iusto, vero dicta?</p> 
+                <div class="testimonio-info">
+                    <p class="cliente">Greidy Peña</p>
+                    <p class="cargo">Dueña de blanquería "María Ale"</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="imagenes/foto4.png" alt="4">
+                <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laborum hic repellat laudantium reiciendis! Aut odio fugit quos nihil doloribus culpa, minima, rerum dicta ullam ipsa labore. Iusto, vero dicta?</p> 
+                <div class="testimonio-info">
+                    <p class="cliente">Joaquin Haidar</p>
+                    <p class="cargo">Dueña de blanquería "María Ale"</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="imagenes/Glendy.jpeg" alt="5">
+                <p class="testimonio-texto">Conocí a Facundo porque comenzamos a estudiar en el bootcamp de Henry. Pertenecíamos a grupos distintos pero por cosas del destino y gracias a otro compañero, me uní con ellos a estudiar desde que comenzaron las clases. Pude darme cuenta de las grandes virtudes de Facu en el desarrollo del bootcamp, pues demostró compromiso, responsabilidad y pro actividad. Siempre con un aporte positivo al grupo, con ganas de ayudar y aprender, demostrando que  le gusta trabajar en equipo. Pude ver en él y en su desenvolvimiento durante las actividades, homeworks y desafíos de la cursada, habilidades blandas y técnicas importantes en el mundo IT. Estamos en la recta final y considero que es un joven entusiasta, merecedor de grandes retos y logros en el desarrollo de su carrera como Desarrollador Full Stack. </p> 
+                <div class="testimonio-info">
+                    <p class="cliente">Glendy Dugarte</p>
+                    <p class="cargo">Companera de Bootcamp - Soy Henry</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+
+</section>
+
+<!--CONTACTO -->
+<section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+        <div class="container rectangulo text-center d-flex justify-content-evenly">
+            <div class="row">
+                <div class="col-12 col-md-4 seccion-titulo">
+                    Hablemos!
+                </div>
+                <div class="col-12 col-md-4 descripcion">
+Contactame para iniciar tu pagina web y hare que tu vision se vuelva realidad!
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="mailto:facundohectortobio@gmail.com">
+                        <button type="button">
+                            Contacto
+                            <i class="bi bi-envelope-at-fill"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+<img class="footer-logo" src="imagenes/ftLogo.png" alt="logo de portafolio">
+<p class="footer-texto text-center">Aprendo y creo todos los dias. <br>Creemos un proyecto juntos!</p>
+<div class="iconos-redes-sociales d-flex align-items-center justify-content-center flex-wrap">
+    <a href="https://github.com/Facundotobio">
+        <i class="bi bi-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/facundo-tobio/">
+        <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="mailto:facundohectortobio@gmail.com">
+        <i class="bi bi-envelope-at-fill"></i>
+    </a>
+    <a href="https://twitter.com/">
+        <i class="bi bi-twitter"></i>
+    </a>
+</div>
+<div class="derechos-de-autor">Creado por Facundo Tobio ~ 2023 &#169;</div>
+</footer>
+
+    <!--JS DE BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html> 
