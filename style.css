@@ -7,11 +7,12 @@ section{
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 
 .seccion-oscura{
-    background-color: #1b1b32;
+   /* background-color: #1b1b32; */
+   background-color: black;
     color: whitesmoke;
 }
 
@@ -21,13 +22,13 @@ h1{
 }
 
 .seccion-titulo{
-    font-size: 2rem;
-    padding: 15px 0;
+    font-size: 1.3rem;
+    padding: 2px 0;
     font-family: 'Rubik Dirt'
 }
 
 .seccion-texto{
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 2px;
 }
 
@@ -48,13 +49,13 @@ h1{
     font-size: 1.1rem;
     margin: 20px;
     font-weight: lighter;
-    background-color: #1b1b32;
+    background-color: black;
     color: white;
     border: #1b1b32;
 }
 
 .btn-info:hover{
-    background-color: #48486f;
+    background-color: #424242;
     color: white;
 }
 
@@ -89,7 +90,7 @@ h1{
 
 /* SECCION SOBRE MI */
 .sobre-mi{
-    height: 500px;
+    height: 700px;
     padding: 10px;
 }  
 
@@ -100,7 +101,7 @@ h1{
 
 /* EXPERIENCIA */
 .experiencia{
-    padding: 40px 40px 60px 40px;
+    padding: 40px 40px 60px 40px;   
 }
 
 .experiencia-titulo{
@@ -115,13 +116,11 @@ h1{
     background-color: #424242;
     padding: 8px 19px;
     border-radius: 50%;
-    
 }
 
 .experiencia .columna {
 padding: 20px;
 border: 2px solid #8080804d;
-/* display: flex; */
 flex-direction: column;
 justify-content: space-evenly;
 transition: all 0.2s ease-in;
@@ -129,7 +128,7 @@ transition: all 0.2s ease-in;
 
 .experiencia .columna:hover {
 color: white;
-background-color: #1b1b32;
+background-color: black;
 }
 
 .badges-contenedor{
@@ -144,7 +143,7 @@ margin: 10px 0;
 
 /* PROYECTOS */
 .proyectos-recientes{
-    padding: 40px;
+    padding: 10px;
 }
 
 .proyectos-recientes img {
@@ -214,6 +213,10 @@ margin: 10px 0;
 
 .articulos .card-header{
 font-weight: bold;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* TESTIMONIOS */
@@ -386,7 +389,7 @@ padding: 20px;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
     .overlay p{
         font-size: 18px;
     }
