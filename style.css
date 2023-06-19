@@ -8,6 +8,8 @@ section{
 
 h1{
     font-size: 2.3rem;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .seccion-oscura{
@@ -23,13 +25,14 @@ h1{
 
 .seccion-titulo{
     font-size: 1.3rem;
-    padding: 2px 0;
+    padding: 2px 0px;
     font-family: 'Rubik Dirt'
 }
 
 .seccion-texto{
-    font-size: 1rem;
-    padding: 2px;
+    font-size: 1.1rem;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .seccion-descripcion{
@@ -80,12 +83,15 @@ h1{
 .imagen{
     border-radius: 10px;
     margin-bottom: 40px;
-    box-shadow: 10px 15px 35px rgba(0.80, 0.80, 0.80, 0.85);
+    box-shadow: 0px 0px 25px 0px rgba(0.80, 0.80, 0.80, 0.80);
 }
 
 
 .hdos{
     margin-bottom: 40px;
+    font-size: 1.6rem;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* SECCION SOBRE MI */
@@ -396,9 +402,18 @@ padding: 20px;
     .overlay i{
         font-size: 40px;
     }
+    .seccion-titulo{
+        font-size: 0.9rem;
+    }
+    
+    .seccion-texto{
+        font-size: 0.6rem;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
 .testimonio-imagen{
     height: 120px;
     width: 120px;
@@ -407,4 +422,15 @@ padding: 20px;
 .testimonio-texto{
     font-size: 18px;
 }
+
+.seccion-titulo{
+    font-size: 1.2rem;
 }
+
+.seccion-texto{
+    font-size: 1rem;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+}
+
