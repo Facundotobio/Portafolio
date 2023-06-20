@@ -24,8 +24,8 @@ h1{
 }
 
 .seccion-titulo{
-    font-size: 1.3rem;
-    padding: 2px 0px;
+    font-size: 2rem;
+    padding: 22px 0px;
     font-family: 'Rubik Dirt'
 }
 
@@ -37,7 +37,8 @@ h1{
 
 .seccion-descripcion{
     font-size: 1.2rem;
-    color: #584e4e;
+    color: #606060;
+    margin-bottom: 5px;
 }
 
 .texto-negro{
@@ -52,13 +53,13 @@ h1{
     font-size: 1.1rem;
     margin: 20px;
     font-weight: lighter;
-    background-color: black;
+    background-color: #424242;
     color: white;
     border: #1b1b32;
 }
 
 .btn-info:hover{
-    background-color: #424242;
+    background-color:#198754;
     color: white;
 }
 
@@ -83,7 +84,7 @@ h1{
 .imagen{
     border-radius: 10px;
     margin-bottom: 40px;
-    box-shadow: 0px 0px 25px 0px rgba(0.80, 0.80, 0.80, 0.80);
+    box-shadow: 0px 0px 15px 0px rgba(0.80, 0.80, 0.80, 0.80);
 }
 
 
@@ -119,7 +120,7 @@ h1{
 .experiencia i {
     font-size: 2.5rem;
     color: whitesmoke;
-    background-color: #424242;
+    background-color: #198754;
     padding: 8px 19px;
     border-radius: 50%;
 }
@@ -134,7 +135,7 @@ transition: all 0.2s ease-in;
 
 .experiencia .columna:hover {
 color: white;
-background-color: black;
+background-color: #606060;
 }
 
 .badges-contenedor{
@@ -155,7 +156,7 @@ margin: 10px 0;
 .proyectos-recientes img {
     height: 100%;
     width: 100%;
-    padding: 10px;
+    padding: 10px; 
     border-radius: 10px;
     display: block;
     transition: all 0.2s ease;
@@ -164,10 +165,11 @@ margin: 10px 0;
 .proyectos-contenedor{
     padding-top: 60px;
     margin-bottom: 40px;
+    padding: 50px;
 }
 
 .proyecto{
-    position: relative;
+    position:relative;
 }
 
 .overlay{
@@ -219,8 +221,13 @@ margin: 10px 0;
 
 .articulos .card-header{
 font-weight: bold;
+color: white;
+background-color:#198754;
 }
-
+.list-group li:hover{
+    color: white;
+    background-color: #aeaeae;
+}
 a {
     text-decoration: none;
 }
@@ -232,6 +239,11 @@ a {
 
 .testimonios .carousel{
     max-width: 800px;
+}
+.testimonios .seccion-descripcion{
+    font-size: 1.2rem;
+    color: #606060;
+    margin-bottom: 30px;
 }
 
 .carousel .item{
@@ -255,7 +267,7 @@ a {
 
 .testimonio-texto{
     max-width: 70%;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
 }
@@ -288,7 +300,7 @@ a {
 .contacto .rectangulo{
 margin-top: -4rem;
 /* background-color: rgb(13,110,253); */
-background-color: #424242;
+background-color: #198754;
 border-radius: 10px;
 box-shadow: 0px 1px 5px 1px;
 }
@@ -368,8 +380,8 @@ footer{
 }
 
 .iconos-redes-sociales a:hover{
-    background-color: white;
-    border: 2px solid #424242
+    background-color: whitesmoke;
+    border: 3px solid #198754
 }
 
 .iconos-redes-sociales a:hover i{
@@ -387,6 +399,15 @@ padding: 20px;
     .navbar-brand{
         display: none;
     }
+    .hero .imagen{
+        max-width: 80%;
+    }
+    .experiencia .columna {
+     margin-bottom: 15px;
+        }
+    .seccion-descripcion{
+    font-size: 1.05rem;
+        }
 }
 
 @media screen and (min-width: 700px) {
@@ -395,21 +416,18 @@ padding: 20px;
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
     .overlay p{
         font-size: 18px;
     }
     .overlay i{
         font-size: 40px;
     }
-    .seccion-titulo{
-        font-size: 0.9rem;
+    h1{
+        font-size: 1.8rem;
     }
-    
-    .seccion-texto{
-        font-size: 0.6rem;
-        padding-left: 15px;
-        padding-right: 15px;
+    .hdos{
+        font-size: 1.1rem;
     }
 }
 
@@ -424,11 +442,11 @@ padding: 20px;
 }
 
 .seccion-titulo{
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 .seccion-texto{
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-left: 25px;
     padding-right: 25px;
 }
