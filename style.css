@@ -73,6 +73,8 @@ h1{
     align-items: center;
     justify-content: space-between;
 }
+.nav-link{
+    font-size: 1.4rem}
 
 /* SECCION PRINCIPAL */  
 .hero{
