@@ -410,6 +410,11 @@ padding: 20px;
     .seccion-descripcion{
     font-size: 1.05rem;
         }
+    .footer-texto{
+    font-size: 0.8rem;
+    padding-left: 60px;
+    padding-right: 60px;
+        }
 }
 
 @media screen and (min-width: 700px) {
