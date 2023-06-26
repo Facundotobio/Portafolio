@@ -26,7 +26,9 @@ h1{
 .seccion-titulo{
     font-size: 2rem;
     padding: 22px 0px;
-    font-family: 'Rubik Dirt'
+    font-family: 'Rubik Dirt';
+    text-align: center;
+    
 }
 
 .seccion-texto{
@@ -39,6 +41,7 @@ h1{
     font-size: 1.2rem;
     color: #606060;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .texto-negro{
@@ -205,6 +208,10 @@ margin: 10px 0;
 .proyecto:hover .overlay{
     opacity: 1;
 
+}
+
+.card{
+    margin: 20px 0;
 }
 
 /* ARTICULOS */
