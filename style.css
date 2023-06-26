@@ -172,7 +172,7 @@ margin: 10px 0;
 
 .proyecto{
     position: relative;
-    border: 2px solid #8080804d;
+    margin: 20px 0;
 }
 
 .overlay{
@@ -186,7 +186,7 @@ margin: 10px 0;
 }
 
 .overlay p{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 0;
 }
@@ -197,8 +197,9 @@ margin: 10px 0;
 
 .overlay i{
     color: black;
-    font-size: 60px;
-    margin: 10px;
+    font-size: 80px;
+    margin: 50px;
+    
 }
 
 .proyecto:hover img{
@@ -210,9 +211,6 @@ margin: 10px 0;
 
 }
 
-.card{
-    margin: 20px 0;
-}
 
 /* ARTICULOS */
 .articulos{
