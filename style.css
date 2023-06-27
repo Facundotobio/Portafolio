@@ -546,6 +546,7 @@ font-size: 0.9rem;
 
     .testimonio-texto{
         font-size: 0.9rem;
+        max-width: 100%;
     }
     
     .testimonio-info .cliente{
