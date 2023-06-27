@@ -481,6 +481,10 @@ padding: 10px 0 0 0;
         font-size: 20px;
         font-weight:500;
     }
+    .derechos-de-autor{
+        font-weight: 700;
+        font-size: 0.8rem;
+    }
 }
 
 @media screen and (max-width: 850px) {
