@@ -511,5 +511,9 @@ padding: 20px;
     font-weight: bold;
     margin: 10px 0;
 }
+
+.experiencia .columna {
+    font-size: 0.9rem;
+}
 }
 
