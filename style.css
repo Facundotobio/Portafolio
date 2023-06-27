@@ -543,5 +543,13 @@ font-size: 0.9rem;
     .list-group li{
         font-size: 0.9rem;
     }
+
+    .testimonio-texto{
+        font-size: 0.9rem;
+    }
+    
+    .testimonio-info .cliente{
+        font-size: 1rem;
+    }
 }
 
