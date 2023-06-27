@@ -557,9 +557,9 @@ font-size: 0.9rem;
         font-size: 1rem;
     }
 
-    .contacto button i{
+    .contacto button{
         font-size: 1rem;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 }
 
