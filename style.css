@@ -556,5 +556,9 @@ font-size: 0.9rem;
     .contacto .descripcion{
         font-size: 1rem;
     }
+
+    .contacto button i{
+        font-size: 1rem;
+    }
 }
 
