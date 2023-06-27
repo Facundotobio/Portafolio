@@ -505,5 +505,11 @@ padding: 20px;
     padding-left: 25px;
     padding-right: 25px;
 }
+
+.experiencia-titulo{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
 }
 
