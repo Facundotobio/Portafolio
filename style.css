@@ -516,5 +516,19 @@ padding: 20px;
     font-size: 0.9rem;
     padding: 10px;
 }
+
+.card-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text{
+font-size: 0.9rem;
+}
+
+.text-body-secondary{
+    font-weight: 700;
+    font-size: 0.8rem;
+}
 }
 
