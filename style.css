@@ -552,5 +552,9 @@ font-size: 0.9rem;
     .testimonio-info .cliente{
         font-size: 1rem;
     }
+
+    .contacto .descripcion{
+        font-size: 1rem;
+    }
 }
 
