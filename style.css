@@ -7,7 +7,7 @@ section{
 }
 
 h1{
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -25,14 +25,13 @@ h1{
 
 .seccion-titulo{
     font-size: 2rem;
-    padding: 22px 0px;
+    padding: 20px 0px;
     font-family: 'Rubik Dirt';
     text-align: center;
-    
 }
 
 .seccion-texto{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -53,12 +52,12 @@ h1{
 }
 
 .btn-info{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin: 20px;
     font-weight: lighter;
     background-color: #424242;
     color: white;
-    border: #1b1b32;
+    border: none;
 }
 
 .btn-info:hover{
@@ -87,7 +86,7 @@ h1{
 }
 
 .imagen{
-    border-radius: 10px;
+    border-radius: 30px;
     margin-bottom: 40px;
     box-shadow: 0px 0px 15px 0px rgba(0.80, 0.80, 0.80, 0.80);
 }
@@ -98,11 +97,11 @@ h1{
     font-size: 1.6rem;
     padding-left: 10px;
     padding-right: 10px;
+    color: #606060;
 }
 
 /* SECCION SOBRE MI */
 .sobre-mi{
-    height: 700px;
     padding: 10px;
 }  
 
@@ -117,7 +116,7 @@ h1{
 }
 
 .experiencia-titulo{
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: bold;
     margin: 10px 0;
 }
@@ -131,7 +130,8 @@ h1{
 }
 
 .experiencia .columna {
-padding: 20px;
+    font-size: 1.1rem;
+padding: 30px;
 border: 2px solid #8080804d;
 flex-direction: column;
 justify-content: space-evenly;
@@ -140,17 +140,18 @@ transition: all 0.2s ease-in;
 
 .experiencia .columna:hover {
 color: white;
-background-color: #606060;
+background-color: #3a5a40;
 }
 
 .badges-contenedor{
-font-size: 20px;
+font-size: 1.2rem;
 font-weight: bold;
 margin: 10px 0;
 }
 
 .badge{
     margin: 5px;
+    background-color: #1b1b32;
 }
 
 /* PROYECTOS */
@@ -228,8 +229,14 @@ margin: 10px 0;
 .articulos .card-header{
 font-weight: bold;
 color: white;
-background-color:#198754;
+background-color:#3a5a40;
+font-size: 1.2rem;
 }
+
+.list-group li{
+    font-size: 1.1rem;
+}
+
 .list-group li:hover{
     color: white;
     background-color: #aeaeae;
@@ -274,7 +281,7 @@ a {
 
 .testimonio-texto{
     max-width: 70%;
-    font-size: 16px;
+    font-size: 1.1rem;
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
 }
@@ -288,13 +295,13 @@ a {
     margin-bottom: 0;
 }
 
-.testimonio-footer .cliente{
+.testimonio-info .cliente{
     font-size: 1.2rem;
 }
 
 .testimonio-info .cargo{
     font-size: 0.9rem;
-    color: #656060;
+    color: #606060;
 }
 
 /* CONTACTO */
@@ -306,8 +313,7 @@ a {
 
 .contacto .rectangulo{
 margin-top: -4rem;
-/* background-color: rgb(13,110,253); */
-background-color: #198754;
+background-color: #3a5a40;
 border-radius: 10px;
 box-shadow: 0px 1px 5px 1px;
 }
@@ -345,7 +351,7 @@ box-shadow: 0px 1px 5px 1px;
 
 .contacto button i{
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     transition: all 0.2s ease-in-out;
 }
 
@@ -396,7 +402,7 @@ footer{
 }
 
 .derechos-de-autor{
-font-size: 15px;
+font-size: 1rem;
 color: #aeaeae;
 padding: 20px;
 }
