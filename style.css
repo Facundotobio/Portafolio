@@ -530,5 +530,10 @@ font-size: 0.9rem;
     font-weight: 700;
     font-size: 0.8rem;
 }
+
+.btn-info{
+    font-size: 0.9rem;
+    margin: 20px;
+}
 }
 
