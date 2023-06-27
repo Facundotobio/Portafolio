@@ -168,7 +168,6 @@ margin: 10px 0;
 
 .proyectos-contenedor{
     padding-top: 60px;
-    margin-bottom: 40px;
 }
 
 .proyecto{
@@ -213,6 +212,19 @@ margin: 10px 0;
 
 }
 
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text{
+font-size: 1.1rem;
+}
+
+.text-body-secondary{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
 
 /* ARTICULOS */
 .articulos{
