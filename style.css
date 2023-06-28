@@ -521,6 +521,7 @@ padding: 10px 0 0 0;
     .stack img {
         width: 30px;
         height: 30px;
+        margin-right: 5px;
       }
 }
 
