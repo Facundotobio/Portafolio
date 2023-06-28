@@ -515,11 +515,9 @@ padding: 10px 0 0 0;
     .nav-link{
         font-size: 1.2rem
     }
-    .stack .row{
+    .stack .rectangulo{
         width: 80%;
-        display: flex;
-        align-items:stretch ;
-        }
+    }
 }
 
 @media screen and (max-width: 850px) {
