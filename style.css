@@ -527,10 +527,11 @@ padding: 10px 0 0 0;
     .stack img {
         width: 30px;
         height: 30px;
-        margin-right: 5px;
+        margin-right: 3px;
     }
     .stack .container{
         padding: 5px;
+        padding-bottom: 20px;
     }
 }
 
