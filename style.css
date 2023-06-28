@@ -111,17 +111,7 @@ h1{
 }
 
 /* STACK */
-.stack-title{
-    font-size: 1.9;
-    align-items: center;
-}
-
-.container2{
-    border: 2px solid #8080804d;
-    padding: 30px;
-}
-
-.seccion-descripcion-stack{
+.seccion-descripcion{
     font-size: 1.2rem;
     color: #000000;
     text-align: center;
