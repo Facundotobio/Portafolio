@@ -557,12 +557,12 @@ font-size: 0.9rem;
     }
 
     .contacto .descripcion{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .contacto button{
         font-size: 0.9rem;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .seccion-descripcion{
