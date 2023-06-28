@@ -110,6 +110,43 @@ h1{
     text-align: center;
 }
 
+/* STACK */
+.stack-title{
+    font-size: 1.9;
+    align-items: center;
+}
+
+.container2{
+    border: 2px solid #8080804d;
+    padding: 30px;
+}
+
+.seccion-descripcion-stack{
+    font-size: 1.2rem;
+    color: #000000;
+    text-align: center;
+}
+
+.stack .container{
+    max-width: 1330px;
+    min-height: 150px;
+    padding: 10px;
+}
+
+.stack .rectangulo{
+    margin-top: -1rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px 1px;
+    margin-bottom: 3rem;
+}
+
+.stack .row{
+    width: 100%;
+    display: flex;
+    align-items:stretch ;
+}
+
 /* EXPERIENCIA */
 .experiencia{
     padding: 40px 40px 60px 40px;   
