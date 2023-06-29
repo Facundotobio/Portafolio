@@ -455,19 +455,18 @@ padding: 5px 0 0 0;
 @media screen and (max-width: 767px) {
     .navbar-brand{
     display: none;
-        }
+    }
     .hero .imagen{
     max-width: 80%;
-        }
+    }
     .footer-texto{
     font-size: 0.9rem;
     padding-left: 40px;
     padding-right: 40px;
-        }
-   
+    }
     .proyecto{
     border: none;
-        }
+    }
 }
 
 @media screen and (min-width: 700px) {
@@ -544,9 +543,9 @@ padding: 5px 0 0 0;
         padding: 5px 30px ;
     }
     .seccion-descripcion{
-        font-size: 1rem;
+        font-size: 0.9rem;
         margin-bottom: 0px;
-            }
+    }
 }
 
 @media screen and (max-width: 850px) {
