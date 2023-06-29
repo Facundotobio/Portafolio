@@ -550,6 +550,7 @@ padding: 5px 0 0 0;
     .contacto .container{
         padding: 5px 30px ;
         min-height: 180px;
+        max-width: 600px;
     }
     .seccion-descripcion{
         font-size: 0.9rem;
