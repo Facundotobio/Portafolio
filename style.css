@@ -459,16 +459,13 @@ padding: 5px 0 0 0;
     .hero .imagen{
     max-width: 80%;
         }
-    .seccion-descripcion{
-    font-size: 1.05rem;
-        }
     .footer-texto{
     font-size: 0.9rem;
     padding-left: 40px;
     padding-right: 40px;
         }
     .seccion-descripcion{
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 5px;
         }
     .proyecto{
