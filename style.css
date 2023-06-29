@@ -560,15 +560,15 @@ padding: 5px 0 0 0;
     height: 120px;
     width: 120px;
 }
-
 .testimonio-texto{
     font-size: 18px;
 }
-
 .seccion-titulo{
     font-size: 1.5rem;
 }
-
+.seccion-titulo-stack{
+    font-size: 1.5rem;
+}
 .seccion-texto{
     font-size: 0.9rem;
     padding-left: 25px;
