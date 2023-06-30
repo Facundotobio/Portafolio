@@ -19,7 +19,7 @@ h1{
 
 .seccion-clara{
     color: black;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .seccion-titulo{
@@ -54,19 +54,19 @@ h1{
     margin: 20px;
     font-weight: lighter;
     background-color: #424242;
-    color: white;
+    color: whitesmoke;
     border: none;
 }
 
 .btn-info:hover{
     background-color:#198754;
-    color: white;
+    color: whitesmoke;
 }
 
 /* NAVBAR */    
 .navbar{
     padding: 2rem;
-    background-color:  #ffffff; 
+    background-color:  whitesmoke; 
 }
 
 .navbar-collapse{
@@ -78,7 +78,7 @@ h1{
 
 /* SECCION PRINCIPAL */  
 .hero{
-    background-color: #ffffff;
+    background-color: whitesmoke;
     min-height: 450px;
     text-align: center;
 }
@@ -287,14 +287,19 @@ margin: 10px 0;
     opacity: 1;
 
 }
+.card{
+    background-color: whitesmoke;
+}
 
 .card-title{
     font-size: 1.5rem;
     font-weight: bold;
+    color: black;
 }
 
 .card-text{
 font-size: 1.1rem;
+color: black;
 }
 
 .text-body-secondary{
@@ -393,7 +398,7 @@ a {
 }
 
 .contacto button:hover{
-    background-color: white;
+    background-color: whitesmoke;
     color: black;
 }
 
