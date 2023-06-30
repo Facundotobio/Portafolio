@@ -14,12 +14,12 @@ h1{
 
 .seccion-oscura{
    background-color: #212529;
-    color: whitesmoke;
+    color: white;
 }
 
 .seccion-clara{
     color: black;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .seccion-titulo{
@@ -54,19 +54,19 @@ h1{
     margin: 20px;
     font-weight: lighter;
     background-color: #424242;
-    color: whitesmoke;
+    color: white;
     border: none;
 }
 
 .btn-info:hover{
     background-color:#198754;
-    color: whitesmoke;
+    color: white;
 }
 
 /* NAVBAR */    
 .navbar{
     padding: 2rem;
-    background-color:  whitesmoke; 
+    background-color:  white; 
 }
 
 .navbar-collapse{
@@ -78,7 +78,7 @@ h1{
 
 /* SECCION PRINCIPAL */  
 .hero{
-    background-color: whitesmoke;
+    background-color: white;
     min-height: 450px;
     text-align: center;
 }
@@ -161,7 +161,7 @@ box-shadow: 0px 1px 5px 1px;
 
 .stack .rectangulo{
     margin-top: 2rem;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 0px 1px 5px 1px;
     margin-bottom: 4rem;
@@ -199,7 +199,7 @@ box-shadow: 0px 1px 5px 1px;
 
 .experiencia i {
     font-size: 2.5rem;
-    color: whitesmoke;
+    color: white;
     background-color: #212529;
     padding: 11px 17px;
     border-radius: 50%;
@@ -297,7 +297,7 @@ margin: 10px 0;
 
 }
 .card{
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .card-title{
@@ -320,7 +320,6 @@ color: black;
 .articulos{
     min-height: 500px;
     padding: 30px;
-    background-color: whitesmoke;
 }
 
 .articulos .card{
@@ -408,7 +407,7 @@ a {
 }
 
 .contacto button:hover{
-    background-color: whitesmoke;
+    background-color: white;
     color: black;
 }
 
@@ -459,7 +458,7 @@ footer{
 }
 
 .iconos-redes-sociales a:hover{
-    background-color: whitesmoke;
+    background-color: white;
     border: 3px solid #3a5a40
 }
 
