@@ -492,6 +492,14 @@ margin: 0 0 20px 0;
     .experiencia .columna {
 margin-bottom: 15px;
     }
+    .derechos-de-autor{
+        font-weight: 700;
+        font-size: 0.8rem;
+        padding: 0 15px; 
+        padding-top: 5px; 
+        padding-bottom: 0; 
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 700px) {
