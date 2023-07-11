@@ -531,6 +531,11 @@ margin-bottom: 15px;
         height: 60px;
         width: 60px;
     }
+    .footer-texto{
+        font-size: 0.9rem;
+        padding-left: 30px;
+        padding-right: 30px;
+        }
     .overlay{
         top: 80%;
         left: 50%;
