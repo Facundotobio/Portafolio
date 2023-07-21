@@ -492,6 +492,9 @@ margin: 0 0 20px 0;
     .experiencia .columna {
 margin-bottom: 15px;
     }
+    .experiencia .columna2 {
+        margin-bottom: 15px;
+            }
     .derechos-de-autor{
         font-weight: 700;
         font-size: 0.8rem;
@@ -620,6 +623,10 @@ margin-bottom: 15px;
 }
 
 .experiencia .columna {
+    font-size: 0.9rem;
+    padding: 15px;
+}
+.experiencia .columna2 {
     font-size: 0.9rem;
     padding: 15px;
 }
