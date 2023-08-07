@@ -228,6 +228,11 @@ color: white;
 background-color: #3a5a40;
 }
 
+.experiencia .columna2:hover {
+    color: white;
+    background-color: #3a5a40;
+    }
+
 .badges-contenedor{
 font-size: 1.2rem;
 font-weight: bold;
