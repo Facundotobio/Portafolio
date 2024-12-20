@@ -6,4 +6,5 @@
 <li>Bootstrap</li>
 <li>CSS</li>
 <li>HTML</li>
+<li>Cypress</li>
 </ul>
