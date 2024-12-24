@@ -297,11 +297,45 @@ margin: 10px 0;
     
 }
 
+.overlay2{
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay2 p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: black;
+}
+
+.overlay2 .iconos-contenedor{
+    display: flex;
+}
+
+.overlay2 i{
+    color: black;
+    font-size: 80px;
+    margin: 50px;
+    margin-left: 100px;
+    
+}
+
 .proyecto:hover img{
     opacity: 0.3;
 }
 
 .proyecto:hover .overlay{
+    opacity: 1;
+
+}
+
+.proyecto:hover .overlay2{
     opacity: 1;
 
 }
@@ -322,6 +356,11 @@ color: black;
 
 .text-body-secondary{
     font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.text-body-secondary2{
+    font-weight: 400;
     font-size: 0.9rem;
 }
 
@@ -536,6 +575,13 @@ margin-bottom: 15px;
     .overlay i{
         font-size: 40px;
     }
+    .overlay2 p{
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    .overlay2 i{
+        font-size: 40px;
+    }
     h1{
         font-size: 1.8rem;
     }
@@ -562,6 +608,15 @@ margin-bottom: 15px;
     }
     
     .overlay p{
+        font-size: 20px;
+        font-weight:500;
+    }
+    .overlay2{
+        top: 80%;
+        left: 50%;
+    }
+    
+    .overlay2 p{
         font-size: 20px;
         font-weight:500;
     }
@@ -651,6 +706,11 @@ font-size: 0.9rem;
 
 .text-body-secondary{
     font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.text-body-secondary2{
+    font-weight: 400;
     font-size: 0.8rem;
 }
 
