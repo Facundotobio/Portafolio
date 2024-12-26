@@ -316,14 +316,14 @@ margin: 10px 0;
 
 .overlay2 .iconos-contenedor{
     display: flex;
+    justify-content: center; /* Centra los iconos horizontalmente */
+
 }
 
 .overlay2 i{
     color: black;
     font-size: 80px;
-    margin: 50px;
-    margin-left: 100px;
-    
+    margin: 50px;    
 }
 
 .proyecto:hover img{
