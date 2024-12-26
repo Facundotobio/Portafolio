@@ -153,11 +153,6 @@ box-shadow: 0px 1px 5px 1px;
     text-align: center;
 }
 
-.seccion-descripcion-qa{
-    font-size: 1.3rem;
-    color: #000000;
-    text-align: center;
-}
 
 .stack .container{
     max-width: 1400px;
@@ -663,10 +658,6 @@ margin-bottom: 15px;
         font-size: 0.9rem;
         margin-bottom: 0px;
     }
-    .seccion-descripcion-qa{
-        font-size: 0.9rem;
-        margin-top: -40px;
-    }
 
 }
 
@@ -759,10 +750,6 @@ font-size: 0.9rem;
         font-size: 1.2rem;
     }
 
-    .seccion-descripcion-qa{
-        font-size: 1.2rem;
-        margin-top: -40px;
-    }
 
     .testimonios .seccion-descripcion{
         font-size: 1rem;
