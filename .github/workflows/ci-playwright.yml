@@ -35,7 +35,7 @@ jobs:
 
       - name: Subir resultados de test si fallan
         if: failure()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: playwright-report
           path: playwright-report 
