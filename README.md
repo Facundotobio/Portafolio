@@ -3,8 +3,9 @@
 <img src="imagenes/fotodePerfil.svg" alt="Foto personal" class="imagen">
 <h2>Tecnologias utilizadas:</h2>
 <ul>
-<li>Bootstrap</li>
-<li>CSS</li>
 <li>HTML</li>
+<li>CSS</li>
+<li>Bootstrap</li>
+<li>Playwright</li>
 <li>Cypress</li>
 </ul>
