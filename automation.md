@@ -22,8 +22,6 @@
   - Visualización de imágenes y contenido de cada sección.
   - Acceso a enlaces externos (ej: agenda).
 
-**Siguiente paso:** Instalación y configuración de Playwright.
-
 ## Paso 2: Instalación y configuración de Playwright
 
 - Se instaló Playwright como dependencia de desarrollo:
@@ -34,12 +32,10 @@
   ```bash
   npx playwright install
   ```
-- Próximo paso: crear la estructura de carpetas para pruebas y configurar Playwright.
 
 ## Paso 3: Estructura de carpetas para pruebas
 
 - Se creó la carpeta por defecto `tests/` para alojar los archivos de pruebas automatizadas.
-- Próximo paso: crear el archivo de configuración de Playwright (`playwright.config.js`) y preparar la primera prueba automatizada.
 
 ## Paso 4: Configuración de Playwright
 
@@ -47,7 +43,6 @@
 - El directorio de pruebas es `./tests`.
 - El navegador por defecto es Chrome (chromium).
 - El baseURL está configurado como `http://localhost:5500` (ajustar si usas otro servidor o puerto).
-- Próximo paso: crear la primera prueba automatizada (por ejemplo, verificación de carga de imágenes principales).
 
 ## Prueba 1: Carga de imágenes principales
 
@@ -152,14 +147,6 @@
 
 ---
 
-**Resumen:**
-- Todas las pruebas internas (SEO, robustez, navegación, títulos, descarga de CV, imágenes principales) pasan exitosamente.
-- Las pruebas de accesibilidad y enlaces externos requieren revisión/cambios en el HTML para cumplir 100%.
-
-¿Quieres que te ayude a mejorar el HTML para que todas las pruebas pasen, o prefieres avanzar con otros tipos de tests o documentación?
-
-**Siguiente paso:** Automatizar pruebas de navegación y redireccionamientos.
-
 ## Uso de la UI de Playwright
 
 - **¿Qué es?** La UI de Playwright es una interfaz gráfica que permite visualizar, ejecutar y depurar las pruebas automatizadas de forma interactiva.
@@ -167,21 +154,6 @@
   ```bash
   npx playwright test --ui
   ```
-- **Ventajas:**
-  - Permite ver el estado de todas las pruebas y su historial de ejecución.
-  - Puedes ejecutar pruebas individuales o en grupo con un solo clic.
-  - Permite inspeccionar los pasos de cada prueba, ver capturas de pantalla y videos generados automáticamente.
-  - Facilita la depuración de pruebas fallidas.
-- **Cómo usarla:**
-  1. Ejecuta el comando anterior en la terminal.
-  2. Se abrirá una ventana en tu navegador mostrando la interfaz de Playwright.
-  3. Desde ahí puedes seleccionar y ejecutar cualquier prueba, ver resultados y logs detallados.
-  4. Puedes modificar pruebas y recargarlas fácilmente desde la UI.
-- **Notas:**
-  - La UI es especialmente útil para desarrollo y debugging de pruebas.
-  - Puedes dejar la UI abierta mientras desarrollas nuevas pruebas para ver los resultados en tiempo real.
-
-**Siguiente paso:** Automatizar pruebas de navegación y redireccionamientos.
 
 ## Notas importantes para la ejecución de pruebas
 
@@ -199,5 +171,3 @@
   npx playwright test --ui
   ```
 - Si tienes otros puertos o servidores, ajusta el `baseURL` en `playwright.config.js`.
-
-**Estado actual:** Las pruebas de carga de imágenes principales pasan exitosamente si el servidor está activo. 
