@@ -1,4 +1,5 @@
 ---
+## Este archivo es para conocer el paso a paso de como se agrego el testing automatizado al proyecto a traves de la tecnica de vibe coding, se le pidio a la IA que documente todo el proceso para una mayor comprension y seguimiento del mismo.
 
 ## Paso 1: Análisis del Repositorio
 
