@@ -10,7 +10,7 @@ const config = {
     ignoreHTTPSErrors: true,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    baseURL: 'http://localhost:5500', // Cambia si usas otro puerto o servidor
+    baseURL: 'https://facundo-tobio-portfolio.vercel.app/', // Cambia si usas otro puerto o servidor
   },
   testDir: './tests',
   timeout: 120000,

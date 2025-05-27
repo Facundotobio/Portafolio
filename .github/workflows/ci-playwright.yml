@@ -27,21 +27,6 @@ jobs:
       - name: Listar archivos de la carpeta a servir
         run: ls -l
 
-      - name: Levantar servidor local
-        run: npx http-server -p 5500 > server.log 2>&1 &
-
-      - name: Ver procesos activos
-        run: ps aux
-
-      - name: Mostrar logs del servidor
-        run: cat server.log
-
-      - name: Verificar puertos en uso
-        run: netstat -tuln | grep 5500 || true
-
-      - name: Esperar a que el servidor esté listo
-        run: npx wait-on http://localhost:5500
-
       - name: Ejecutar tests Playwright
         run: npx playwright test
 
