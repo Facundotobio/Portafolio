@@ -24,6 +24,9 @@ jobs:
       - name: Instalar navegadores Playwright
         run: npx playwright install --with-deps
 
+      - name: Listar archivos de la carpeta a servir
+        run: ls -l
+
       - name: Levantar servidor local
         run: npx http-server -p 5500 > server.log 2>&1 &
 
