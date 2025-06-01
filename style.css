@@ -559,9 +559,12 @@ margin-bottom: 15px;
         text-align: center;
     }
     .version{
+        font-weight: 700;
         font-size: 0.8rem;
-        padding: 5px 0 0 0;
-        /* margin: 0 0 0 1200px; */
+        padding: 0 15px;
+        padding-top: 5px; 
+        padding-bottom: 0; 
+        text-align: center;
     }
 }
 
@@ -641,9 +644,12 @@ margin-bottom: 15px;
         text-align: center;
     }
     .version{
+        font-weight: 700;
         font-size: 0.8rem;
-        padding: 5px 0 0 0;
-        /* margin: 0 0 0 1200px; */
+        padding: 0 15px;
+        padding-top: 5px; 
+        padding-bottom: 0; 
+        text-align: center;
     }
     .nav-link{
         font-size: 1.2rem
