@@ -27,7 +27,5 @@ test.describe('Navegación y títulos', () => {
     await expect(page.locator('h2.seccion-titulo.texto-negro').nth(0)).toContainText('Mis proyectos');
     await expect(page.locator('h2.seccion-titulo.texto-negro').nth(1)).toContainText('Artículos');
     await expect(page.locator('h2.seccion-titulo').nth(-1)).toContainText('Testimonios');
-    // Si existe sección de contacto, agregar:
-    // await expect(page.locator('h2.seccion-titulo')).toContainText('Contacto');
   });
 }); 
