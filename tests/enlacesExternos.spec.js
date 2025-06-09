@@ -9,7 +9,6 @@ const enlaces = [
   // Proyectos (galería)
   { selector: 'a[href*="github.com/Facundotobio/food"]', url: 'https://github.com/Facundotobio/food' },
   { selector: 'a[href*="youtube.com/watch?v=9lEN8Dx3qu8"]', url: 'https://www.youtube.com/watch?v=9lEN8Dx3qu8' },
-  { selector: 'a[href*="youtube.com/watch?v=UzU3OlLFdn8"]', url: 'https://www.youtube.com/watch?v=UzU3OlLFdn8' },
   { selector: 'a[href*="https://www.progreso.cl/"]', url: 'https://www.progreso.cl/' },
   { selector: 'a[href*="https://temba.cl/"]', url: 'https://temba.cl/' },
 ];
