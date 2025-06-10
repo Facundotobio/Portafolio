@@ -22,7 +22,7 @@ test.describe('Navegación y títulos', () => {
   test('Títulos y subtítulos presentes', async ({ page }) => {
     await page.goto('/');
     await expect(page.locator('h1')).toContainText('Facundo Tobio');
-    await expect(page.locator('h2.hdos')).toContainText('Full Stack Developer ~ QA manual & Automation');
+    await expect(page.locator('h2.hdos')).toContainText('Full Stack Developer ~ QA Manual & Automation');
     await expect(page.locator('h2.seccion-titulo').nth(0)).toContainText('Te contaré sobre mí');
     await expect(page.locator('h2.seccion-titulo.texto-negro').nth(0)).toContainText('Mis proyectos');
     await expect(page.locator('h2.seccion-titulo.texto-negro').nth(1)).toContainText('Artículos');
