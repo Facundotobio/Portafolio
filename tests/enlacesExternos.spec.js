@@ -7,8 +7,8 @@ const enlaces = [
   { selector: 'a[href*="api.whatsapp.com"]', url: 'https://api.whatsapp.com/send?phone=542241534215' },
   { selector: 'a[href^="mailto:"]', url: 'mailto:facundohectortobio@gmail.com' },
   // Proyectos (galería)
-  { selector: 'a[href*="github.com/Facundotobio/food"]', url: 'https://github.com/Facundotobio/food' },
-  { selector: 'a[href*="youtube.com/watch?v=9lEN8Dx3qu8"]', url: 'https://www.youtube.com/watch?v=9lEN8Dx3qu8' },
+  // { selector: 'a[href*="github.com/Facundotobio/food"]', url: 'https://github.com/Facundotobio/food' },
+  // { selector: 'a[href*="youtube.com/watch?v=9lEN8Dx3qu8"]', url: 'https://www.youtube.com/watch?v=9lEN8Dx3qu8' },
   { selector: 'a[href*="https://www.progreso.cl/"]', url: 'https://www.progreso.cl/' },
   { selector: 'a[href*="https://temba.cl/"]', url: 'https://temba.cl/' },
 ];
