@@ -1061,12 +1061,12 @@ footer {
     }
 
     .stack-icons img {
-        width: 26px !important;
-        height: 26px !important;
+        width: 28px !important;
+        height: 28px !important;
     }
 
     .stack-icons img:hover {
-        transform: translateY(-10px) scale(1.70);
+        transform: translateY(-10px) scale(1.90);
     }
 
 }
