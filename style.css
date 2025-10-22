@@ -153,49 +153,143 @@ box-shadow: 0px 1px 5px 1px;
 }
 
 /* STACK */
-
-.seccion-descripcion{
-    font-size: 1.3rem;
-    color: #000000;
+.stack {
+    padding: 20px 0 80px 0;
+    background: #212529;
+    color: #fff;
     text-align: center;
+    position: relative;
+    overflow: visible;
 }
 
-
-.stack .container{
-    max-width: 1400px;
-    min-height: 180px;
-    padding: 10px;
-}
-
-.stack .rectangulo{
-    margin-top: 2rem;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0px 1px 5px 1px;
-    margin-bottom: 4rem;
-}
-
-.seccion-titulo-stack{
+.seccion-titulo-stack {
     font-size: 2rem;
-    font-family: 'Rubik Dirt';
-    text-align: center;
-    margin-top: 40px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
 }
 
-.stack img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
+.seccion-descripcion-stack {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    color: #ffffff !important;
 }
 
-.stack .row{
-    width: 100%;
+/* --- ICONOS --- */
+.stack-icons {
     display: flex;
-    align-items:stretch ;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    animation: fadeInUp 1s ease both;
+    overflow: visible;
 }
 
-.redux{
-    height: 10rem;
+.stack-icons img {
+    width: 90px !important;
+    height: 90px !important;
+    object-fit: contain;
+    filter: grayscale(20%);
+    transition: transform 0.6s ease, filter 0.6s ease, box-shadow 0.6s ease, filter 0.6s ease;
+    z-index: 2;
+}
+
+.stack-icons img:hover {
+    transform: translateY(-10px) scale(1.5);
+    filter: grayscale(0%);
+    border-radius: 10px;
+}
+
+/* Asegurar que el inner no oculte sombras */
+.carousel-inner {
+    overflow: visible;
+}
+
+/* Transición base */
+.carousel-item {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+    transform: none !important;
+    /* desactivamos desplazamiento lateral si lo hay */
+}
+
+/* El item activo (visible) */
+.carousel-item.active {
+    opacity: 1;
+}
+
+/* Cuando entra un nuevo item (desde adelante o atrás) */
+.carousel-item-next.carousel-item-start,
+.carousel-item-prev.carousel-item-end {
+    opacity: 1;
+}
+
+/* Cuando sale el item actual */
+.carousel-item.active.carousel-item-end,
+.carousel-item.active.carousel-item-start {
+    opacity: 0;
+}
+
+
+/* --- CARRUSEL --- */
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    /* centrado vertical */
+    transform: translateY(-50%);
+    /* mantiene centrado al cambiar altura */
+    width: 70px;
+    /* tamaño fijo */
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* fondo sutil */
+    border-radius: 50%;
+    /* forma circular */
+    transition: all 0.3s ease;
+    z-index: 10;
+    /* por encima de los iconos */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Íconos dentro de los botones */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+    /* hace los íconos blancos */
+    width: 20px;
+    height: 20px;
+}
+
+/* Posición lateral fija */
+.carousel-control-prev {
+    left: 15%;
+}
+
+.carousel-control-next {
+    right: 15%;
+}
+
+.carousel-inner {
+    overflow: visible;
+}
+
+/* --- ANIMACIÓN DE ENTRADA --- */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* EXPERIENCIA */
@@ -558,6 +652,36 @@ margin-bottom: 15px;
         padding-top: 5px; 
         padding-bottom: 0; 
         text-align: center;
+    }
+    .carousel-control-prev {
+        left: 10%;
+      }
+    
+      .carousel-control-next {
+        right: 10%;
+      }
+    
+      .carousel-control-prev,
+      .carousel-control-next {
+        width: 30px;
+        height: 30px;
+      }
+      .seccion-titulo-stack {
+        padding: 0 0 0 0;
+      }
+      .seccion-descripcion-stack {
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+      }
+      .stack-icons {
+        margin-bottom: -30px;
+      }
+      .stack-icons img {
+        width: 40px !important;
+        height: 40px !important;
+      }
+      .stack-icons img:hover {
+        transform: translateY(-10px) scale(1.60);
     }
 }
 
