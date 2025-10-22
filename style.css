@@ -598,6 +598,7 @@ a {
     font-size: 0.9rem;
     /* GRIS CLARO PARA CONTRASTE */
     color: #b0b0b0;
+    margin-bottom: -40px;
 }
 
 /* CONTROLES DEL CARRUSEL - MISMO ESTILO QUE STACK */
