@@ -355,35 +355,42 @@ h1 {
     background-color: #212529;
     padding: 11px 17px;
     border-radius: 50%;
+    transition: all 0.3s ease;
 }
 
-.experiencia .columna {
-    font-size: 1.1rem;
-    padding: 30px 25px;
-    ;
-    border: 2px solid #8080804d;
-    flex-direction: column;
-    justify-content: space-evenly;
-    transition: all 0.2s ease-in;
-}
-
+.experiencia .columna,
 .experiencia .columna2 {
     font-size: 1.1rem;
     padding: 30px 25px;
     border: 2px solid #8080804d;
     flex-direction: column;
     justify-content: space-evenly;
-    transition: all 0.2s ease-in;
+    transition: all 0.4s ease;
+    transform: scale(1);
+    opacity: 1;
 }
 
-.experiencia .columna:hover {
-    color: white;
-    background-color: #3a5a40;
-}
-
+.experiencia .columna:hover,
 .experiencia .columna2:hover {
     color: white;
     background-color: #3a5a40;
+    transform: scale(1.05);
+    opacity: 1;
+    z-index: 10;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Efecto de desenfoque en las otras cards */
+.experiencia .row:hover .columna:not(:hover),
+.experiencia .row:hover .columna2:not(:hover) {
+    opacity: 0.4;
+    transform: scale(0.95);
+    filter: blur(2px);
+}
+
+.experiencia .columna:hover i,
+.experiencia .columna2:hover i {
+    transform: scale(1.1);
 }
 
 .badges-contenedor {
