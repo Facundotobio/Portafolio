@@ -140,9 +140,51 @@ h1 {
     padding: 1em 2em;
     margin: 10px;
     border-radius: 100px;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
 
+.contacto button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transition: left 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: -1;
+    border-radius: 100px;
+}
+
+.contacto button:hover::before {
+    left: 0;
+}
+
+.contacto button:hover {
+    color: #3a5a40;
+    background-color: white;
+    border-color: white;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6),
+                0 0 40px rgba(255, 255, 255, 0.4),
+                0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.contacto button:active {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+                0 0 30px rgba(255, 255, 255, 0.3),
+                0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contacto button i {
+    transition: transform 0.3s ease;
+}
+
+.contacto button:hover i {
+    transform: scale(1.2);
+}
 
 /* SECCION SOBRE MI */
 .sobre-mi {
