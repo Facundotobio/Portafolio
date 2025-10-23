@@ -253,13 +253,13 @@
   
 
     <!--PROYECTOS -->
-    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <!-- <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
         <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
-        <h3 class="seccion-descripcion">Estos son los más recientes...</h3>
+        <h3 class="seccion-descripcion">Estos son los más recientes...</h3> -->
 
         <!-- galeria de proyectos-->
-        <div class="row justify-content-center proyectos-contenedor">
-            <div class="col-12 col-md-8">
+        <!-- <div class="row justify-content-center proyectos-contenedor">
+            <div class="col-12 col-md-8"> -->
                 <!-- <div class="proyecto">
                    
                     <div class="card ">
@@ -286,9 +286,9 @@
                     </div>
                 </div>
                 <br> -->
-                <div class="proyecto">
+                <!-- <div class="proyecto"> -->
                     <!-- Prikly -->
-                    <div class="card ">
+                    <!-- <div class="card ">
                         <div class="card-body">
                             <h5 class="card-title">Prikly</h5>
                             <p class="card-text">Prikly, anteriormente llamada Viuti, es una plataforma de gestión
@@ -437,6 +437,168 @@
             <a href="https://github.com/Facundotobio" target="_blank" rel="noopener noreferrer" title="Ver más proyectos en GitHub">
                 <button type="button" class="btn btn-info">Ver más proyectos <i
                         class="bi bi-arrow-right-circle-fill"></i></button>
+            </a>
+        </div>
+    </section> -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo-proyectos texto-negro">Mis proyectos</h2>
+        <h3 class="seccion-descripcion">Estos son los más recientes...</h3>
+    
+        <!-- Contenedor del Carrusel -->
+        <div class="carousel-3d-container">
+            <div class="carousel-3d-wrapper">
+                <!-- Proyecto 1: Prikly -->
+                <div class="carousel-card" data-index="0">
+                    <div class="card">
+                        <img src="imagenes/gifViutify.gif" alt="Prikly" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Prikly</h5>
+                            <p class="card-text"><small class="text-body-secondary">© Junio/2023 ~ Tablero de ventas - versión 2.0</small></p>
+                            <p class="card-text">Prikly es una plataforma de gestión completa e intuitiva diseñada para comercios y emprendimientos.
+                                El lenguaje utilizado en el backend fue C#, bajo el framework .NET, utilizando entity framework y Dapper para la conexión a la base de datos,
+                                mientras que en el front se utilizo JS con React.
+                                El proyecto utiliza una arquitectura de microservicios para
+                                construir un sistema distribuido y modular que puede escalar y adaptarse fácilmente a
+                                medida que evolucionan los requisitos y las necesidades del negocio.</p>
+                            <div class="badges-contenedor">
+                                <span class="badge text-bg-light">C#</span>
+                                <span class="badge text-bg-light">.NET</span>
+                                <span class="badge text-bg-light">React</span>
+                                <span class="badge text-bg-light">MySQL</span>
+                            </div>
+                            <a href="https://www.prikly.io/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm mt-2">
+                                <i class="bi bi-link-45deg"></i> Ver proyecto
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Proyecto 2: Temba -->
+                <div class="carousel-card" data-index="1">
+                    <div class="card">
+                        <img src="imagenes/Temba.gif" alt="Temba Factoring" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Temba</h5>
+                            <p class="card-text"><small class="text-body-secondary">© Enero/2024 ~ Temba</small></p>
+                            <p class="card-text">Temba es una plataforma de factoring digital que permite a los usuarios obtener liquidez de forma rápida
+                                 y autogestionada. Aquí implementé funcionalidades clave como la asignación dinámica de ejecutivos,
+                                 la validación en línea con el Servicio de Impuestos Internos (SII), y la cesión de documentos tanto manual como automatizada.
+                               También desarrollé la visualización de la cartera de clientes para ejecutivos, el mantenedor de perfiles para clientes,
+                                la generación de simulaciones en formato PDF, y el envío automatizado de correos electrónicos para entregar retroalimentación
+                                 al momento de crear nuevas operaciones.</p>
+                            <div class="badges-contenedor">
+                                <span class="badge text-bg-light">.NET</span>
+                                <span class="badge text-bg-light">C#</span>
+                                <span class="badge text-bg-light">JavaScript</span>
+                                <span class="badge text-bg-light">React</span>
+                            </div>
+                            <a href="https://temba.cl/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm mt-2">
+                                <i class="bi bi-link-45deg"></i> Ver proyecto
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Proyecto 3: Progreso Contratos -->
+                <div class="carousel-card" data-index="2">
+                    <div class="card">
+                        <img src="imagenes/Contratos.gif" alt="Contratos" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Progreso ~ Contratos</h5>
+                            <p class="card-text"><small class="text-body-secondary">© Septiembre/2024 ~ Progreso</small></p>
+                            <p class="card-text">Realicé mejoras en los módulos de contratos Factoring, Serviu, Ordering e
+                                 Informe Serviu. Trabajé con C# en el back y JS con React en el front. Efectué cambios en el look
+                                  and feel de las plantillas de los contratos, lo que resultó en una interfaz más intuitiva y atractiva para los
+                                   usuarios.
+                                Una de las mejoras clave fue la implementación de variables dinámicas conectadas a una base de datos MySQL,
+                                 facilitando la creación y personalización de plantillas, mejorando el flujo de trabajo al permitir una gestión
+                                  más flexible de los datos y agilizando el proceso de generación de contratos, adaptándose mejor a las necesidades del negocio.</p>
+                            <div class="badges-contenedor">
+                                <span class="badge text-bg-light">C#</span>
+                                <span class="badge text-bg-light">.NET</span>
+                                <span class="badge text-bg-light">React</span>
+                                <span class="badge text-bg-light">MySQL</span>
+                            </div>
+                            <a href="https://www.progreso.cl/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm mt-2">
+                                <i class="bi bi-link-45deg"></i> Ver proyecto
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Proyecto 4: Cotizador Móvil -->
+                <div class="carousel-card" data-index="3">
+                    <div class="card">
+                        <img src="imagenes/gifCotizadorMovil.gif" alt="Cotizador Móvil Leasing" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Progreso ~ Cotizador Móvil</h5>
+                            <p class="card-text"><small class="text-body-secondary">© Diciembre/2024 ~ Progreso</small></p>
+                            <p class="card-text">Mi responsabilidad fue garantizar la calidad del producto,
+                                 para ello diseñé y ejecuté casos de prueba detallados como pruebas funcionales para verificar que cada
+                                  característica operara según lo esperado y pruebas de regresión para asegurar que las nuevas implementaciones
+                                   no afectaran negativamente las funcionalidades existentes. Además, llevé a cabo pruebas de aceptación que confirmaron que el producto
+                                     cumplía con los requisitos y expectativas del cliente.
+                                Para estar informados sobre el estado de cada proceso, documenté incidencias en ClickUp,
+                                 permitiendo un seguimiento efectivo.</p>
+                            <div class="badges-contenedor">
+                                <span class="badge text-bg-light">Postman</span>
+                                <span class="badge text-bg-light">ClickUp</span>
+                                <span class="badge text-bg-light">Swagger</span>
+                                <span class="badge text-bg-light">MySQL</span>
+                            </div>
+                            <a href="https://www.progreso.cl/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm mt-2">
+                                <i class="bi bi-link-45deg"></i> Ver proyecto
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Proyecto 5: Fischer Medical -->
+                <div class="carousel-card" data-index="4">
+                    <div class="card">
+                        <img src="imagenes/Bloom.gif" alt="Fischer Medical - Bloom3" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Fischer Medical ~ Bloom3</h5>
+                            <p class="card-text"><small class="text-body-secondary">© Julio/2025 ~ Fischer Medical</small></p>
+                            <p class="card-text">Bloom es una app destinada a estimuladores de electrofisiología y monitoreo
+                                 de señales fisiológicas, desarrollada en C# y WPF, siguiendo el patrón MVVM.
+                                 Contribuí al desarrollo y mantenimiento de la tercera versión de
+                                   esta aplicación, donde gestioné la persistencia de configuraciones utilizando una base de datos
+                                 SQLite, permitiendo a los usuarios personalizar su experiencia y mantener la integridad de sus datos.
+                                  Además, optimicé la coherencia visual y el funcionamiento de la interfaz, asegurando
+                                    una experiencia de usuario intuitiva y fluida.</p>
+                            <div class="badges-contenedor">
+                                <span class="badge text-bg-light">C#</span>
+                                <span class="badge text-bg-light">MVVM</span>
+                                <span class="badge text-bg-light">WPF</span>
+                                <span class="badge text-bg-light">SQLite</span>
+                            </div>
+                            <a href="https://fischermti.com/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm mt-2">
+                                <i class="bi bi-link-45deg"></i> Ver proyecto
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Botones de Navegación -->
+            <button class="carousel-btn carousel-btn-prev" id="prevBtn">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+            <button class="carousel-btn carousel-btn-next" id="nextBtn">
+                <i class="bi bi-chevron-right"></i>
+            </button>
+    
+            <!-- Indicadores (opcional) -->
+            <div class="carousel-indicators-custom" id="carouselIndicators"></div>
+        </div>
+    
+        <!-- Botón Ver Más -->
+        <div class="row justify-content-center mt-5">
+            <a href="https://github.com/Facundotobio" target="_blank" rel="noopener noreferrer" title="Ver más proyectos en GitHub">
+                <button type="button" class="btn btn-info-proyectos">
+                    Ver más proyectos <i class="bi bi-arrow-right-circle-fill"></i>
+                </button>
             </a>
         </div>
     </section>
@@ -592,6 +754,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+        <script src="carousel3d.js"></script>
 </body>
 
 </html>
