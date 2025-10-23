@@ -215,7 +215,7 @@ h1 {
 }
 
 .seccion-descripcion-stack {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
     margin-bottom: 50px;
     color: #ffffff !important;
 }
@@ -301,6 +301,7 @@ h1 {
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
     background-color: rgba(255, 255, 255, 0.25);
+    transform: translateY(-50%) scale(1.1);    
 }
 
 /* Íconos dentro de los botones */
@@ -541,7 +542,7 @@ h1 {
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    gap: 10px;
+    gap: 20px;
     z-index: 100;
 }
 
@@ -597,8 +598,8 @@ h1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     background-color: #424242;
     border: none;
     border-radius: 50%;
@@ -626,7 +627,7 @@ h1 {
 /* íconos blancos y centrados */
 .carousel-btn i {
     color: #fff !important;
-    font-size: 28px !important;
+    font-size: 20px !important;
     line-height: 1 !important;
     display: flex !important;
     align-items: center !important;
@@ -1019,7 +1020,7 @@ footer {
     }
 
     .seccion-descripcion-stack {
-        font-size: 1.2rem;
+        font-size: 1.2rem !important;
         margin-bottom: 40px;
     }
 
@@ -1105,7 +1106,7 @@ footer {
     .carousel-btn {
         width: 30px;
         height: 30px;
-        font-size: 24px;
+        font-size: 18px;
     }    
 
     .carousel-btn-prev {
