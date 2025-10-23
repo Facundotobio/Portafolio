@@ -1135,6 +1135,7 @@ footer {
 
     .badge {
         margin: 3px;
+        font-size: 0.7rem !important;
     }
 }
 
