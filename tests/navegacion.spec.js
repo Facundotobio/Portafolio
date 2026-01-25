@@ -21,11 +21,14 @@ test.describe('Navegación y títulos', () => {
 
   test('Títulos y subtítulos presentes', async ({ page }) => {
     await page.goto('/');
-    await expect(page.locator('h1')).toContainText('Facundo Tobio');
-    await expect(page.locator('h2.hdos')).toContainText('Full Stack Developer ~ QA Automation');
-    await expect(page.locator('h2.seccion-titulo').nth(0)).toContainText('Te contaré sobre mí');
-    await expect(page.locator('h2.seccion-titulo.texto-negro').nth(0)).toContainText('Mis proyectos');
-    await expect(page.locator('h2.seccion-titulo.texto-negro').nth(1)).toContainText('Artículos');
-    await expect(page.locator('h2.seccion-titulo').nth(-1)).toContainText('Testimonios');
+    await expect(page.locator('section.hero h1')).toContainText('Facundo Tobio');
+    await expect(page.locator('section.hero h2')).toContainText('Full Stack Developer ~ QA Automation');
+
+    // await expect(page.locator('h1')).toContainText('Facundo Tobio');
+    // await expect(page.locator('h2.hdos')).toContainText('Full Stack Developer ~ QA Automation');
+    await expect(page.locator('#sobreMi h2')).toContainText('Te contaré sobre mí..');
+    await expect(page.locator('#proyectos h2')).toContainText('Mis proyectos');
+    await expect(page.locator('section.articulos h2')).toContainText('Artículos');
+    await expect(page.locator('#testimonios h2')).toContainText('Testimonios');
   });
 }); 
