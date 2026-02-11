@@ -173,7 +173,7 @@
         <div id="stackCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
         <div class="carousel-inner">
     
-            <!-- 1️⃣ Lenguajes -->
+            <!-- Lenguajes -->
             <div class="carousel-item active">
             <h3 class="seccion-descripcion-stack">Lenguajes</h3>
             <div class="stack-icons">
@@ -183,7 +183,7 @@
             </div>
             </div>
     
-            <!-- 2️⃣ Frontend -->
+            <!-- Frontend -->
             <div class="carousel-item">
             <h3 class="seccion-descripcion-stack">Frontend</h3>
             <div class="stack-icons">
@@ -195,7 +195,7 @@
             </div>
             </div>
     
-            <!-- 3️⃣ Backend -->
+            <!-- Backend -->
             <div class="carousel-item">
             <h3 class="seccion-descripcion-stack">Backend</h3>
             <div class="stack-icons">
@@ -204,7 +204,7 @@
             </div>
             </div>
     
-            <!-- 4️⃣ Bases de Datos -->
+            <!-- Bases de Datos -->
             <div class="carousel-item">
             <h3 class="seccion-descripcion-stack">Bases de Datos</h3>
             <div class="stack-icons">
@@ -214,7 +214,7 @@
             </div>
             </div>
     
-            <!-- 5️⃣ QA -->
+            <!-- QA -->
             <div class="carousel-item">
             <h3 class="seccion-descripcion-stack">QA</h3>
             <div class="stack-icons">
@@ -227,17 +227,32 @@
             </div>
             </div>
     
-            <!-- 6️⃣ Gestión -->
+            <!-- Gestión -->
             <div class="carousel-item">
             <h3 class="seccion-descripcion-stack">Gestión y Organización</h3>
             <div class="stack-icons">
                 <img src="imagenes/jira.svg" alt="Jira" />
                 <img src="imagenes/miro.svg" alt="Miro" />
                 <img src="imagenes/ClickUp.png" alt="ClickUp" />
+                <img src="imagenes/git.png" alt="Git" />
+                <img src="imagenes/sonarqube.png" alt="Sonarqube" />
+                <img src="imagenes/docker.png" alt="Docker" />
             </div>
             </div>
     
-            
+            <!-- AWS -->
+            <div class="carousel-item">
+            <h3 class="seccion-descripcion-stack">AWS Services</h3>
+            <div class="stack-icons">
+                <img src="imagenes/s3.png" alt="S3" width="290" height="290" />
+                <img src="imagenes/sns.png" alt="SNS" />
+                <img src="imagenes/apiGateway.png" alt="API Gateway" />
+                <img src="imagenes/cloudWatch.png" alt="CloudWatch" />
+                <img src="imagenes/ec2.png" alt="EC2" />
+                <img src="imagenes/sqs.png" alt="SQS" />
+            </div>
+            </div>
+
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#stackCarousel" data-bs-slide="prev">
@@ -266,17 +281,22 @@
                         <div class="card-body">
                             <h5 class="card-title">Prikly</h5>
                             <p class="card-text"><small class="text-body-secondary">© Junio/2023 ~ Tablero de ventas - versión 2.0</small></p>
-                            <p class="card-text">Prikly es una plataforma de gestión completa e intuitiva diseñada para comercios y emprendimientos.
-                                El lenguaje utilizado en el backend fue C#, bajo el framework .NET, utilizando entity framework y Dapper para la conexión a la base de datos,
-                                mientras que en el front se utilizo JS con React.
-                                El proyecto utiliza una arquitectura de microservicios para
-                                construir un sistema distribuido y modular que puede escalar y adaptarse fácilmente a
-                                medida que evolucionan los requisitos y las necesidades del negocio.</p>
+                            <p class="card-text">Plataforma SaaS basada en microservicios donde participé en el desarrollo backend en C# y .NET, 
+                                utilizando entity framework y Dapper para la conexión a la base de datos. Trabajé en una arquitectura orientada a eventos 
+                                utilizando Amazon SQS para el procesamiento asincrónico entre servicios, favoreciendo el desacoplamiento y la resiliencia 
+                                del sistema. Utilice Amazon S3 para el almacenamiento centralizado de archivos y documentación de clientes, asegurando una 
+                                gestión estructurada de los recursos multimedia. Además, colaboré en la gestión de instancias EC2 y en el monitoreo mediante
+                                 CloudWatch para garantizar estabilidad, disponibilidad y control del consumo de recursos. La arquitectura se exponía a través
+                                  de API Gateway, que funcionaba como punto de entrada para los servicios distribuidos.</p>
                             <div class="badges-contenedor">
                                 <span class="badge text-bg-light">C#</span>
                                 <span class="badge text-bg-light">.NET</span>
                                 <span class="badge text-bg-light">React</span>
                                 <span class="badge text-bg-light">MySQL</span>
+                                <span class="badge text-bg-light">S3</span>
+                                <span class="badge text-bg-light">SQS</span>
+                                <span class="badge text-bg-light">EC2</span>
+                                <span class="badge text-bg-light">API GATEWAY</span>
                             </div>
                             <a href="https://www.prikly.io/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm mt-2">
                                 <i class="bi bi-link-45deg"></i> Ver proyecto
@@ -292,17 +312,21 @@
                         <div class="card-body">
                             <h5 class="card-title">Temba</h5>
                             <p class="card-text"><small class="text-body-secondary">© Enero/2024 ~ Temba</small></p>
-                            <p class="card-text">Temba es una plataforma de factoring digital que permite a los usuarios obtener liquidez de forma rápida
-                                 y autogestionada. Aquí implementé funcionalidades clave como la asignación dinámica de ejecutivos,
-                                 la validación en línea con el Servicio de Impuestos Internos (SII), y la cesión de documentos tanto manual como automatizada.
-                               También desarrollé la visualización de la cartera de clientes para ejecutivos, el mantenedor de perfiles para clientes,
-                                la generación de simulaciones en formato PDF, y el envío automatizado de correos electrónicos para entregar retroalimentación
-                                 al momento de crear nuevas operaciones.</p>
+                            <p class="card-text">Plataforma fintech de factoring digital que permite a los usuarios obtener liquidez de forma rápida
+                                 y autogestionada. Aquí participé en el desarrollo de APIs backend en C# y .NET para la integración con el frontend
+                                  utilizando TypeScript y React, donde implementé funcionalidades clave como la asignación dinámica de ejecutivos, la
+                                   validación en línea con el Servicio de Impuestos Internos de Chile, la cesión de documentos tanto manual como automatizada,
+                                    la visualización de la cartera de clientes para ejecutivos, el mantenedor de perfiles para clientes, la generación
+                                     de simulaciones en formato PDF, y el envío automatizado de correos electrónicos mediante Amazon SNS para entregar
+                                      retroalimentación al momento de crear nuevas operaciones. y el almacenamiento seguro de documentación financiera en
+                                       Amazon S3, contribuyendo a la gestión estructurada y escalable de archivos dentro de un entorno fintech donde la 
+                                       disponibilidad y la integridad de la información eran factores críticos.</p>
                             <div class="badges-contenedor">
                                 <span class="badge text-bg-light">.NET</span>
                                 <span class="badge text-bg-light">C#</span>
                                 <span class="badge text-bg-light">JavaScript</span>
                                 <span class="badge text-bg-light">React</span>
+                                <span class="badge text-bg-light">S3</span>
                             </div>
                             <a href="https://temba.cl/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm mt-2">
                                 <i class="bi bi-link-45deg"></i> Ver proyecto
@@ -319,7 +343,7 @@
                             <h5 class="card-title">Contratos</h5>
                             <p class="card-text"><small class="text-body-secondary">© Septiembre/2024 ~ Progreso</small></p>
                             <p class="card-text">Realicé mejoras en los módulos de contratos Factoring, Serviu, Ordering e
-                                 Informe Serviu. Trabajé con C# en el back y JS con React en el front. Efectué cambios en el look
+                                 Informe Serviu. Trabajé con C# en el back y JavaScript con React en el front. Efectué cambios en el look
                                   and feel de las plantillas de los contratos, lo que resultó en una interfaz más intuitiva y atractiva para los
                                    usuarios.
                                 Una de las mejoras clave fue la implementación de variables dinámicas conectadas a una base de datos MySQL,
@@ -351,7 +375,7 @@
                                    no afectaran negativamente las funcionalidades existentes. Además, llevé a cabo pruebas de aceptación que confirmaron que el producto
                                      cumplía con los requisitos y expectativas del cliente.
                                 Para estar informados sobre el estado de cada proceso, documenté incidencias en ClickUp,
-                                 permitiendo un seguimiento efectivo.</p>
+                                 permitiendo un seguimiento efectivo y brindando claridad en la comunicación con el equipo de desarrollo.</p>
                             <div class="badges-contenedor">
                                 <span class="badge text-bg-light">Postman</span>
                                 <span class="badge text-bg-light">ClickUp</span>
@@ -372,13 +396,11 @@
                         <div class="card-body">
                             <h5 class="card-title">Bloom3</h5>
                             <p class="card-text"><small class="text-body-secondary">© Julio/2025 ~ Fischer Medical</small></p>
-                            <p class="card-text">Bloom es una app destinada a estimuladores de electrofisiología y monitoreo
-                                 de señales fisiológicas, desarrollada en C# y WPF, siguiendo el patrón MVVM.
-                                 Contribuí al desarrollo y mantenimiento de la tercera versión de
-                                   esta aplicación, donde gestioné la persistencia de configuraciones utilizando una base de datos
-                                 SQLite, permitiendo a los usuarios personalizar su experiencia y mantener la integridad de sus datos.
-                                  Además, optimicé la coherencia visual y el funcionamiento de la interfaz, asegurando
-                                    una experiencia de usuario intuitiva y fluida.</p>
+                            <p class="card-text">Bloom es un sistema de misión crítica con tolerancia mínima al error, destinado al monitoreo de señales
+                                 fisiológicas, desarrollado en C# y WPF, siguiendo el patrón MVVM, donde contribuí al desarrollo y mantenimiento de la
+                                  tercera versión de esta aplicación, gestionando la persistencia de configuraciones utilizando una base de datos SQLite,
+                                   permitiendo a los usuarios personalizar su experiencia y mantener la integridad de sus datos. Además, optimicé la
+                                    coherencia visual y el funcionamiento de la interfaz, asegurando una experiencia de usuario intuitiva y fluida.</p>
                             <div class="badges-contenedor">
                                 <span class="badge text-bg-light">C#</span>
                                 <span class="badge text-bg-light">MVVM</span>
@@ -447,6 +469,34 @@
                         <div class="testimonio-info">
                             <p class="cliente">Mauricio Calderon</p>
                             <p class="cargo"> Zendesk administrator en Opservator</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="imagenes/carlosescobar.jfif" alt="Testimonio Carlos Escobar">
+                        <p class="testimonio-texto">Tuve el gusto de trabajar con Facu y ver de cerca su evolución profesional.
+                             Gracias a su curiosidad constante y enfoque autodidacta, creció hasta convertirse en un fullstack sólido.
+                              Siempre mostró ganas genuinas de aprender, asumir nuevos retos y mejorar como profesional,
+                               lo que hace muy fácil y grato trabajar en equipo con él.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Carlos Escobar</p>
+                            <p class="cargo">Project Manager en Lilab</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="imagenes/lorenamartins.jfif" alt="Testimonio Lorena Martins">
+                        <p class="testimonio-texto">Trabajé con Facundo en Lilab y fue un gusto compartir equipo con el.
+                             Desde el primer momento demostró una gran capacidad para adaptarse,
+                              aprender rápido y asumir responsabilidades cada vez mayores.
+                            Se destacó por su enfoque integral del desarrollo y por su muy buena predisposición para trabajar en conjunto.
+                            Su crecimiento técnico y profesional a lo largo del tiempo fue evidente.
+                            Sin dudas, lo recomiendo para equipos que valoren el trabajo colaborativo, la mejora continua y una visión orientada a la calidad.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Lorena Martins</p>
+                            <p class="cargo">Quality Assurance en Lilab</p>
                         </div>
                     </div>
                 </div>
