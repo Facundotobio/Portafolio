@@ -101,16 +101,17 @@
     <section id="sobreMi" class="sobre-mi seccion-oscura">
         <div class="contenedor">
             <h2 class="seccion-titulo">Te contaré sobre mí..</h2>
-            <p class="seccion-texto">Soy Facundo Tobio, Técnico en Laboratorio graduado de la Universidad Nacional de La Plata,
-                 actualmente full stack developer especializado en testing manual y automatizado, con más de tres años de experiencia
-                  en el diseño y desarrollo de soluciones digitales.
-                En mi trayectoria profesional, he trabajado en la creación, mejora y mantenimiento de sistemas en sectores como fintech,
-                gestión empresarial y plataformas digitales. Cuento con experiencia implementando microservicios eficientes,
-                  optimizando bases de datos y desarrollando flujos automatizados que incrementan la productividad 
-                  y el orden en los procesos, utilizando técnicas de web scraping para la extracción y análisis de datos,
-                   mejorando la precisión y la eficiencia en la obtención de información clave.
-                   Como full stack developer poseo sólidos conocimientos técnicos que complementan mi rol de QA,
-                    incluyendo APIs, bases de datos y arquitecturas de software, lo que me permite realizar un testeo más integral, profundo y efectivo.
+            <p class="seccion-texto">Soy Facundo Tobio, Full Stack Developer con más de tres años de experiencia desarrollando y manteniendo sistemas críticos en sectores fintech y salud.
+                 Especializado en C#, .NET, JavaScript, TypeScript, React y Node.js, con foco en diseño de APIs resilientes, arquitecturas basadas en microservicios y automatización 
+                 de procesos en entornos productivos.
+                He participado en el desarrollo de plataformas SaaS fintech que gestionaban operaciones sensibles como factoring, leasing y reportes tributarios,
+                 así como en sistemas de monitoreo fisiológico con tolerancia mínima al error. En estos contextos, implementé estrategias de resiliencia, comunicación asincrónica entre servicios
+                  y validaciones de datos en línea, mejorando la confiabilidad operativa y reduciendo fallos en producción.
+                Complemento mi perfil de desarrollo con una fuerte base en calidad de software y testing automatizado utilizando herramientas como Selenium, Playwright, Cypress y JMeter,
+                 lo que me permite abordar el ciclo completo de construcción con una perspectiva integral. Tengo experiencia en optimización de bases de datos, 
+                 automatización de flujos mediante herramientas como n8n, Make y Zapier, y trabajo con servicios de AWS como S3, EC2, SQS, SNS y API Gateway.
+                Trabajo de forma efectiva en equipos remotos multidisciplinarios, comunicando con claridad problemas técnicos complejos y priorizando soluciones mantenibles,
+                 escalables y orientadas al negocio. Mi objetivo es continuar profundizando en arquitecturas distribuidas y automatización avanzada para resolver problemas complejos con precisión y eficiencia.
             </p>
         </div>
     </section>
@@ -294,14 +295,14 @@
                         <div class="card-body">
                             <h5 class="card-title">Prikly</h5>
                             <p class="card-text"><small class="text-body-secondary">© Junio/2023 ~ Tablero de ventas - versión 2.0</small></p>
-                            <p class="card-text">Participé en el desarrollo backend de 4 microservicios en C# y .NET,
-                                donde desarrollé el microservicio de seguridad que gestionaba roles y permisos para usuarios en distintos sectores de la aplicación. 
+                            <p class="card-text">Plataforma SaaS para la cual participé en el desarrollo backend de 4 microservicios en C# y .NET,
+                                incluyendo el de autenticación y control de acceso que gestionaba roles y permisos para usuarios en distintos sectores de la aplicación. 
                                 Disponibilicé endpoints utilizando Entity Framework, LinQ y Dapper para un acceso eficiente a datos.
                                 Trabajé con una arquitectura orientada a eventos utilizando Amazon SQS para el procesamiento asincrónico entre servicios,
                                  favoreciendo el desacoplamiento y la resiliencia del sistema, donde la arquitectura se exponía a través de API Gateway,
                                   que funcionaba como punto de entrada para los servicios distribuidos.
-                                Utilicé Amazon S3 para el almacenamiento centralizado de la documentación de clientes y colaboré en el monitoreo mediante
-                                 CloudWatch para garantizar estabilidad, disponibilidad y control del consumo de recursos.</p>
+                                Utilicé Amazon S3 para el almacenamiento centralizado de la documentación de clientes y realice pruebas unitarias con xUnit
+                                 en todos los microservicios, asegurando que el código cumpliera con estándares de cobertura estricta superiores al 90%.</p>
                             <div class="badges-contenedor">
                                 <span class="badge text-bg-light">C#</span>
                                 <span class="badge text-bg-light">.NET</span>
@@ -309,8 +310,8 @@
                                 <span class="badge text-bg-light">MySQL</span>
                                 <span class="badge text-bg-light">S3</span>
                                 <span class="badge text-bg-light">SQS</span>
-                                <span class="badge text-bg-light">EC2</span>
                                 <span class="badge text-bg-light">API GATEWAY</span>
+                                <span class="badge text-bg-light">xUnit</span>
                             </div>
                             <a href="https://www.prikly.io/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm mt-2">
                                 <i class="bi bi-link-45deg"></i> Ver proyecto
@@ -326,22 +327,23 @@
                         <div class="card-body">
                             <h5 class="card-title">Temba</h5>
                             <p class="card-text"><small class="text-body-secondary">© Enero/2024 ~ Temba</small></p>
-                            <p class="card-text">Plataforma fintech de factoring digital que permite a los usuarios obtener liquidez de forma rápida
-                                 y autogestionada, donde participé en el desarrollo y mantenimiento de APIs con C# y .NET. En el frontend
-                                  utilizamos TypeScript y React, donde implementé funcionalidades clave como la asignación dinámica de ejecutivos, la
-                                   validación en línea con el Servicio de Impuestos Internos de Chile, la cesión de documentos tanto manual como automatizada,
-                                    la visualización de la cartera de clientes para ejecutivos, el mantenedor de perfiles para clientes, la generación
-                                     de simulaciones en formato PDF, el envío automatizado de correos electrónicos mediante Amazon SNS para entregar
-                                      retroalimentación al momento de crear nuevas operaciones, y el almacenamiento seguro de documentación financiera en
-                                       Amazon S3, contribuyendo a la gestión estructurada y escalable de archivos dentro de un entorno fintech donde la 
-                                       disponibilidad y la integridad de la información eran factores críticos.</p>
+                            <p class="card-text">Plataforma fintech de factoring digital para la cual desarrollé APIs backend en C# y .NET sobre una arquitectura MVC
+                                 para integración con frontend en TypeScript y React. Automatice procesos críticos mediante un algoritmo de balanceo de carga que asignaba
+                                  ejecutivos a clientes de forma equilibrada, eliminando el cuello de botella de asignaciones manuales y acelerando el flujo operacional.
+                                  Implementé validaciones en línea con el Servicio de Impuestos Internos de Chile, cesión de documentos automatizada,
+                                   mantenedor de perfiles para clientes, visualización de la cartera de clientes para ejecutivos, generación de simulaciones en PDF,
+                                  el envío automatizado de correos electrónicos mediante Amazon SNS para retroalimentación en tiempo real, y almacenamiento seguro de 
+                                  documentación financiera en Amazon S3, contribuyendo a una gestión estructurada y escalable de archivos en un entorno fintech crítico.
+                                   Utilicé SonarQube para monitoreo y bloqueé despliegues que no cumplían umbrales definidos de pruebas unitarias con NUnit, garantizando estándares rigurosos en producción.</p>
                             <div class="badges-contenedor">
                                 <span class="badge text-bg-light">.NET</span>
                                 <span class="badge text-bg-light">C#</span>
-                                <span class="badge text-bg-light">JavaScript</span>
+                                <span class="badge text-bg-light">TypeScript</span>
                                 <span class="badge text-bg-light">React</span>
                                 <span class="badge text-bg-light">S3</span>
                                 <span class="badge text-bg-light">SNS</span>
+                                <span class="badge text-bg-light">NUnit</span>
+                                <span class="badge text-bg-light">SonarQube</span>
                             </div>
                             <a href="https://temba.cl/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm mt-2">
                                 <i class="bi bi-link-45deg"></i> Ver proyecto
@@ -357,14 +359,14 @@
                         <div class="card-body">
                             <h5 class="card-title">Contratos</h5>
                             <p class="card-text"><small class="text-body-secondary">© Septiembre/2024 ~ Progreso</small></p>
-                            <p class="card-text">Realicé mejoras en los módulos de contratos Factoring, Serviu, Ordering e
-                                 Informe Serviu. Trabajé con C# en el backend y JavaScript con React en el frontend, donde efectué cambios en el look
-                                  and feel y en la lógica de las plantillas de los contratos, como la implementación de variables dinámicas conectadas a una base de datos relacional en MySQL,
-                                 facilitando la creación y personalización de plantillas, agilizando el proceso de generación de contratos, reduciendo tiempos de respuesta y 
-                                  adaptándose mejor a las necesidades del negocio, lo que resultó en una interfaz más intuitiva y atractiva para los usuarios.</p>
+                            <p class="card-text">Implementé un sistema de plantillas dinámicas con C# y una base de datos relacional MySQL para la generación de contratos con variables parametrizadas,
+                                   permitiendo generar más de 30 tipos de contratos en los módulos de contratos Factoring, Serviu, Ordering e Informe Serviu. Esto estandarizó el diseño,
+                                    eliminó errores de configuración manual y redujo significativamente el tiempo de generación de contratos personalizados,
+                                    adaptándose mejor a las necesidades del negocio, lo que resultó en una interfaz más intuitiva y atractiva para los usuarios.</p>
                             <div class="badges-contenedor">
                                 <span class="badge text-bg-light">C#</span>
                                 <span class="badge text-bg-light">.NET</span>
+                                <span class="badge text-bg-light">JavaScript</span>
                                 <span class="badge text-bg-light">React</span>
                                 <span class="badge text-bg-light">MySQL</span>
                             </div>
@@ -382,13 +384,11 @@
                         <div class="card-body">
                             <h5 class="card-title">Cotizador Móvil</h5>
                             <p class="card-text"><small class="text-body-secondary">© Diciembre/2024 ~ Progreso</small></p>
-                            <p class="card-text">Mi responsabilidad fue garantizar la calidad del producto,
-                                 para ello diseñé y ejecuté casos de prueba detallados como pruebas funcionales para verificar que cada
-                                  característica operara según lo esperado y pruebas de regresión para asegurar que las nuevas implementaciones
-                                   no afectaran negativamente las funcionalidades existentes. Además, llevé a cabo pruebas de aceptación que confirmaron que el producto
-                                     cumplía con los requisitos y expectativas del cliente.
-                                Para estar informados sobre el estado de cada proceso, documenté incidencias en ClickUp,
-                                 permitiendo un seguimiento efectivo y brindando claridad en la comunicación con el equipo de desarrollo.</p>
+                            <p class="card-text">Mi responsabilidad fue garantizar la calidad del producto diseñando y ejecutando casos de prueba funcionales, de regresión y de aceptación.
+                                 Verifiqué que cada característica operara según lo esperado y que las nuevas implementaciones no afectaran negativamente funcionalidades existentes.
+                                  Ejecuté pruebas de aceptación que confirmaron cumplimiento con requisitos y expectativas del cliente. Documenté incidencias en ClickUp para seguimiento efectivo
+                                   y claridad en la comunicación con el equipo de desarrollo, brindando trazabilidad completa del testing. Fui responsable de las presentaciones de nuevos features
+                                    al cliente, demostrando la calidad y funcionalidad de cada implementación.</p>
                             <div class="badges-contenedor">
                                 <span class="badge text-bg-light">Postman</span>
                                 <span class="badge text-bg-light">ClickUp</span>
@@ -409,16 +409,19 @@
                         <div class="card-body">
                             <h5 class="card-title">Bloom3</h5>
                             <p class="card-text"><small class="text-body-secondary">© Julio/2025 ~ Fischer Medical</small></p>
-                            <p class="card-text">Bloom es un sistema de misión crítica con tolerancia mínima al error, destinado al monitoreo de señales
+                            <p class="card-text">Bloom es un sistema de misión crítica en salud con tolerancia mínima al error, destinado al monitoreo de señales
                                  fisiológicas, desarrollado en C# y WPF, siguiendo el patrón MVVM, donde contribuí al desarrollo y mantenimiento de la
-                                  tercera versión de esta aplicación, gestionando la persistencia de configuraciones utilizando una base de datos SQLite,
-                                   permitiendo a los usuarios personalizar su experiencia y mantener la integridad de sus datos. Además, optimicé la
-                                    coherencia visual y el funcionamiento de la interfaz, asegurando una experiencia de usuario intuitiva y fluida.</p>
+                                  tercera versión de esta aplicación, donde implementé persistencia de datos en SQLite diferenciando instalaciones iniciales de
+                                   actualizaciones de versión, resolviendo un bug crítico donde se perdía el 100% de datos de usuario (presets, canales, configuraciones de audio/video) en cada actualización.
+                                   La solución garantizó a los usuarios personalizar su experiencia y mantener la integridad de sus datos. Además, optimicé la
+                                    coherencia visual y el funcionamiento de la interfaz, asegurando una experiencia de usuario intuitiva y fluida en un entorno clínico crítico.</p>
                             <div class="badges-contenedor">
+                                <span class="badge text-bg-light">.NET</span> 
                                 <span class="badge text-bg-light">C#</span>
-                                <span class="badge text-bg-light">MVVM</span>
                                 <span class="badge text-bg-light">WPF</span>
+                                <span class="badge text-bg-light">MVVM</span>
                                 <span class="badge text-bg-light">SQLite</span>
+                                <span class="badge text-bg-light">Redmine</span>
                             </div>
                             <a href="https://fischermti.com/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm mt-2">
                                 <i class="bi bi-link-45deg"></i> Ver proyecto

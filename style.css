@@ -327,11 +327,11 @@ h1 {
 
 /* Posición lateral fija */
 .carousel-control-prev {
-    left: 15%;
+    left: 5%;
 }
 
 .carousel-control-next {
-    right: 15%;
+    right: 5%;
 }
 
 .carousel-inner {
@@ -823,11 +823,11 @@ a {
 }
 
 #testimonios-carrusel .carousel-control-prev {
-    left: 15%;
+    left: 5%;
 }
 
 #testimonios-carrusel .carousel-control-next {
-    right: 15%;
+    right: 5%;
 }
 
 /* TRANSICIONES SUAVES COMO EN STACK */
@@ -1024,11 +1024,11 @@ footer {
     }
 
     .carousel-control-prev {
-        left: 10%;
+        left: 5%;
     }
 
     .carousel-control-next {
-        right: 10%;
+        right: 5%;
     }
 
     .carousel-control-prev,
@@ -1153,9 +1153,10 @@ footer {
     }
 
     .carousel-indicators-custom {
-        bottom: 10px !important;
+        display: none !important;
+        /* bottom: 10px !important;
         gap: 15px !important;
-        padding: 10px 0 !important;
+        padding: 10px 0 !important; */
     }
 
     .btn-info-proyectos {
@@ -1321,11 +1322,11 @@ footer {
     }
 
     .carousel-control-prev {
-        left: 10%;
+        left: 5%;
     }
 
     .carousel-control-next {
-        right: 10%;
+        right: 5%;
     }
 
     .carousel-control-prev,
