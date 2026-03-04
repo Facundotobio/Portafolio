@@ -1078,7 +1078,7 @@ footer {
     }
 
     .carousel-3d-container {
-        height: 850px;
+        height: 900px;
         margin-top: -1rem;
         margin-bottom: 0rem;
         padding: 0 2px;
@@ -1137,7 +1137,7 @@ footer {
         width: 30px;
         height: 30px;
         font-size: 18px;
-        top: 95%;
+        top: 98%;
     }
 
     .carousel-btn:hover {
@@ -1161,7 +1161,7 @@ footer {
 
     .btn-info-proyectos {
         font-size: 1rem;
-        margin-top: -20px;
+        margin-top: -80px;
         margin-bottom: 10px;
     }
 
