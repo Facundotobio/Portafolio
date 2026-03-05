@@ -634,11 +634,11 @@ h1 {
 
 /* posiciones laterales */
 .carousel-btn-prev {
-    left: 290px;
+    left: 5%;
 }
 
 .carousel-btn-next {
-    right: 290px;
+    right: 5%;
 }
 
 .carousel-btn i {
@@ -855,80 +855,6 @@ a {
     overflow: visible;
 }
 
-/* .testimonios {
-    padding: 40px 40px 80px 40px;
-}
-
-.testimonios .carousel {
-    max-width: 800px;
-}
-
-.testimonios .seccion-descripcion {
-    font-size: 1.2rem;
-    color: #606060;
-    margin-bottom: 30px;
-}
-
-.carousel .item {
-    height: 500px;
-}
-
-.carousel-item .container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.testimonio-imagen {
-    border: 2px solid #606060;
-    height: 160px;
-    width: 160px;
-    margin: 10px 10px 20px 10px;
-}
-
-.testimonio-texto {
-    max-width: 70%;
-    font-size: 1.1rem;
-    text-align: center;
-    font-family: 'Share Tech Mono', monospace;
-}
-
-.testimonio-info {
-    font-weight: bold;
-    text-align: center;
-}
-
-.testimonio-info p {
-    margin-bottom: 0;
-}
-
-.testimonio-info .cliente {
-    font-size: 1.2rem;
-}
-
-.testimonio-info .cargo {
-    font-size: 0.9rem;
-    color: #606060;
-}
-
-.contacto button:hover {
-    background-color: white;
-    color: black;
-}
-
-.contacto button:hover i {
-    color: black;
-}
-
-.contacto button i {
-    color: white;
-    font-size: 1.2rem;
-    transition: all 0.2s ease-in-out;
-} */
-
 /* FOOTER*/
 footer {
     min-height: 280px;
@@ -1069,7 +995,7 @@ footer {
     }
 
     .testimonios {
-        margin-top: 20px;
+        margin-top: -20px;
     }
 
     .testimonio-texto {
@@ -1078,7 +1004,7 @@ footer {
     }
 
     .carousel-3d-container {
-        height: 900px;
+        height: 920px;
         margin-top: -1rem;
         margin-bottom: 0rem;
         padding: 0 2px;
@@ -1140,18 +1066,6 @@ footer {
         top: 98%;
     }
 
-    .carousel-btn:hover {
-        transform: translateY(-50%) scale(1.1);
-    }
-
-    .carousel-btn-prev {
-        left: 40px;
-    }
-
-    .carousel-btn-next {
-        right: 40px;
-    }
-
     .carousel-indicators-custom {
         display: none !important;
         /* bottom: 10px !important;
@@ -1161,8 +1075,8 @@ footer {
 
     .btn-info-proyectos {
         font-size: 1rem;
-        margin-top: -80px;
-        margin-bottom: 10px;
+        /* margin-top: -80px; */
+        margin-bottom: 36px;
     }
 
     .carousel-btn i {
