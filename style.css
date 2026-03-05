@@ -770,7 +770,6 @@ a {
     font-size: 1.1rem;
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
-    /* TEXTO BLANCO */
     color: #ffffff;
 }
 
@@ -932,12 +931,28 @@ footer {
         border: none;
     }
 
+    .seccion-texto {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    .experiencia {
+        padding: 60px 10px 60px 10px;
+    }
+
     .experiencia .columna {
         margin-bottom: 15px;
+        padding: 20px 10px 10px 10px;  
     }
 
     .experiencia .columna2 {
-        margin-bottom: 15px;
+        margin-bottom: 5px;
+        padding: 20px 10px 10px 10px;  
+    }
+
+    .experiencia i.bi {
+        font-size: 1.3rem;
+        padding: 5px 8px;
     }
 
     .derechos-de-autor {
@@ -999,7 +1014,7 @@ footer {
     }
 
     .testimonio-texto {
-        max-width: 90%;
+        max-width: 99%;
         font-size: 1rem;
     }
 
@@ -1008,7 +1023,12 @@ footer {
         margin-top: -1rem;
         margin-bottom: 0rem;
         padding: 0 2px;
+        perspective: none;
     }
+
+    .carousel-3d-wrapper {
+        transform-style: flat;
+      }
 
     /* OCULTAR TARJETAS LATERALES */
     .carousel-card:not(.active) {
@@ -1018,6 +1038,13 @@ footer {
     }
 
     /* TARJETA ACTIVA - Centrada y adaptada */
+    .carousel-card {
+        width: 90%;
+        max-width: 400px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
     .carousel-card.active {
         width: 95% !important;
         max-width: 400px !important;
@@ -1037,20 +1064,6 @@ footer {
         height: auto !important;
         max-height: 250px !important;
         object-fit: cover !important;
-    }
-
-    .carousel-card.active .card-text {
-        display: block;
-        -webkit-line-clamp: unset;
-        overflow: visible;
-        height: auto;
-    }
-
-    .carousel-card {
-        width: 90%;
-        max-width: 400px;
-        left: 50%;
-        transform: translate(-50%, -50%);
     }
 
     .carousel-card .card-img-top {
@@ -1098,31 +1111,16 @@ footer {
         font-size: 1.2rem;
         margin-bottom: 30px;
     }
-}
 
-@media screen and (min-width: 700px) {
-    .hero.inferior.imagen {
-        max-width: 600px;
+    .testimonio-imagen {
+        height: 100px;
+        width: 100px;
     }
-
-    .stack .rectangulo {
-        width: 95%;
-    }
-
-    .stack img {
-        width: 50px;
-        height: 50px;
-        margin-right: 5px;
-    }
-
-    .seccion-titulo-stack {
-        padding: 0 0 0 0;
-        margin-top: 25px;
-    }
-
-    .seccion-descripcion-stack {
-        font-size: 1.2rem;
-        margin-bottom: 40px;
+    
+    .articulos .card {
+        width: 99%;
+        /* max-width: 600px; */
+        margin: 20px;
     }
 }
 
@@ -1235,16 +1233,23 @@ footer {
         margin-bottom: 0px;
     }
 
+    /* .carousel-card .card-text {
+        font-size: 1.1rem;
+    } */
+    
+
+    .carousel-card .badges-contenedor {
+        justify-content: center;
+    }
+
     .carousel-control-prev {
-        left: 5%;
+        left: 5% !important;
+        width: 30px !important;
+        height: 30px !important;
     }
 
     .carousel-control-next {
-        right: 5%;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
+        right: 5% !important;
         width: 30px !important;
         height: 30px !important;
     }
@@ -1264,12 +1269,12 @@ footer {
     }
 
     .stack-icons img {
-        width: 28px !important;
-        height: 28px !important;
+        width: 50px !important;
+        height: 50px !important;
     }
 
     .stack-icons img:hover {
-        transform: translateY(-10px) scale(1.90);
+        transform: translateY(-10px) scale(1.50);
     }
 
     .carousel-card {
@@ -1286,7 +1291,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 850px) {
+/* @media screen and (max-width: 850px) {
     .testimonio-imagen {
         height: 120px;
         width: 120px;
@@ -1383,4 +1388,4 @@ footer {
     .testimonios .seccion-descripcion {
         font-size: 1rem;
     }
-}
+} */
