@@ -1351,8 +1351,6 @@ footer {
         box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6) !important;
     }
 
-    
-
     .carousel-indicators-custom {
         bottom: 40px !important;
     }
@@ -1370,6 +1368,15 @@ footer {
         margin: 5px 25px;
     }
 
+    .footer-logo {
+        margin: -40px 0px 10px 0px;
+    }
+
+    .derechos-de-autor {
+        font-weight: 700;
+        text-align: center;
+        margin: 10px 0 0px 0;
+    }
   }
 
  /* @media screen and (max-width: 850px) {
